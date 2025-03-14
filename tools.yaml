@@ -2125,6 +2125,15 @@
   - proprietary
   - build-integration
   - github-action
+- name: sbom-validator
+  publisher: ShiftLeftCyber
+  description: A lightweight Go library for validating Software Bill of Materials (SBOM) against industry-standard specifications
+  repoUrl: https://github.com/shiftleftcyber/sbom-validator
+  websiteUrl: https://shiftleftcyber.io
+  categories:
+    - opensource
+    - library
+    - analysis
 
 # `description` will be truncated at 250 characters
 # `categories` values MUST be the keys from `tool-categories.yml` file
