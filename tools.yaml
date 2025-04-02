@@ -2143,6 +2143,14 @@
     - opensource
     - library
     - analysis
+- name: CycloneDX Perl Library
+  publisher: Giuseppe Di Terlizzi
+  description: Perl library for generating CycloneDX SBOMs
+  repoUrl: https://github.com/giterlizzi/perl-SBOM-CycloneDX
+  websiteUrl: https://metacpan.org/pod/SBOM::CycloneDX
+  categories:
+  - opensource
+  - library
 
 # `description` will be truncated at 250 characters
 # `categories` values MUST be the keys from `tool-categories.yml` file
