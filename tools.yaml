@@ -2151,6 +2151,16 @@
   categories:
   - opensource
   - library
+- name: ReARM
+  publisher: Reliza
+  websiteUrl: https://rearmhq.com
+  repoUrl: https://github.com/relizaio/rearm
+  description: ReARM is a system to store, organize and manage
+    SBOMs / xBOMs with Component and Product releases
+  categories:
+  - opensource
+  - distribute
+  - build-integration
 
 # `description` will be truncated at 250 characters
 # `categories` values MUST be the keys from `tool-categories.yml` file
