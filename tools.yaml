@@ -2161,6 +2161,14 @@
   - opensource
   - distribute
   - build-integration
+- name: BOMnipotent
+  publisher: Weichwerke Heidrich Software
+  websiteUrl: https://www.bomnipotent.de
+  repoUrl: https://github.com/Weichwerke-Heidrich-Software/bomnipotent_doc
+  description: A server application for managing and distributing SBOMs and CSAF documents. Integrates with tools for vulnerability scanning. Allows fine-grained access-control and classification with the TLP protocol. Free to use for non-commercial entities.
+  categories:
+    - proprietary
+    - distribute
 
 # `description` will be truncated at 250 characters
 # `categories` values MUST be the keys from `tool-categories.yml` file
