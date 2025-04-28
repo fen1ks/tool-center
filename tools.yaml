@@ -1345,13 +1345,15 @@
   categories:
     - opensource
     - analysis
-- name: secure.software
+- name: Spectra Assure
   publisher: ReversingLabs
-  description: Software supply chain security protection for CI/CD workflows, containers, and release packages that enables DevSecOps teams to release software with confidence.
+  description: Spectra Assure scans binary software packages, containers, and VM disk images to detect threats and exposures. CycloneDX SBOM, SaaSBOM, ML-BOM, and CBOM are outputs.
   websiteUrl: https://www.reversinglabs.com/products/software-supply-chain-security
   categories:
     - proprietary
     - build-integration
+    - analysis
+    - github-action
 - name: Arsenal
   publisher: Deepbits
   description: A free online toolset for software supply chain analysis, including AI-powered SBOM/SaaSBOM building and risk analysis services for COTS software, open-source software artifacts, public code repositories, and public docker images.
