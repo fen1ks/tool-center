@@ -2169,7 +2169,7 @@
   categories:
     - proprietary
     - distribute
-- name: AI SBOM (AIBOM, ML-BOM) Generator
+- name: AI SBOM Generator
   publisher: Aetheris AI
   description: Generate AI SBOM (AIBOM, AI/ML-BOM) in CycloneDX format for models on Hugging Face.
   repoUrl: http://sbom.aetheris.ai
