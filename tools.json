@@ -1,0 +1,5885 @@
+{
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
+  "specVersion": "2.0",
+  "last_updated": "2025-05-04T22:04:23Z",
+  "tools": [
+    {
+      "name": "CycloneDX Core for Java",
+      "publisher": "CycloneDX",
+      "description": "Library which facilitates the creation of SBOMs from Java objects,",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "LIBRARY"
+      ],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-core-java",
+      "website_url": "https://github.com/CycloneDX/cyclonedx-core-java",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for .NET",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX Software Bill of Materials (SBOM) from .NET Projects",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-dotnet",
+      "website_url": "https://www.nuget.org/packages/CycloneDX/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX Libraries for .NET",
+      "publisher": "CycloneDX",
+      "description": "\".NET libraries to consume and produce CycloneDX Software Bill of Materials (SBOM)\"",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "LIBRARY"
+      ],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-dotnet-library",
+      "website_url": "https://www.nuget.org/profiles/CycloneDX",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX JavaScript Library",
+      "publisher": "CycloneDX",
+      "description": "Core functionality of CycloneDX for JavaScript (Node.js or WebBrowser) written in TypeScript.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "LIBRARY"
+      ],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-javascript-library",
+      "website_url": "https://www.npmjs.com/package/%40cyclonedx/cyclonedx-library",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for Node.js",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX SBOMs for Node.js projects.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-node-module",
+      "website_url": "https://www.npmjs.com/package/%40cyclonedx/bom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for NPM",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX SBOMs for Node.js NPM projects.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-node-npm",
+      "website_url": "https://www.npmjs.com/package/%40cyclonedx/cyclonedx-npm",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for Yarn",
+      "publisher": "CycloneDX",
+      "description": "Create CycloneDX Software Bill of Materials (SBOM) from Node.js Yarn projects.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-node-yarn",
+      "website_url": "https://yarnpkg.com/package?name=%40cyclonedx%2Fyarn-plugin-cyclonedx",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for Webpack",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX SBOMs for frontend Javascript applications that have",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-webpack-plugin",
+      "website_url": "https://github.com/CycloneDX/cyclonedx-webpack-plugin",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for Maven",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX SBOMs for Java (Maven) projects",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-maven-plugin",
+      "website_url": "https://github.com/CycloneDX/cyclonedx-maven-plugin",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX library for Go",
+      "publisher": "CycloneDX",
+      "description": "Go library to consume and produce CycloneDX Software Bill of Materials",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "LIBRARY"
+      ],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-go",
+      "website_url": "https://github.com/CycloneDX/cyclonedx-go",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for Go modules",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX Software Bill of Materials (SBOM) from Go modules",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-gomod",
+      "website_url": "https://github.com/CycloneDX/cyclonedx-gomod",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for Gradle",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX SBOMs for Java (Gradle) projects",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-gradle-plugin",
+      "website_url": "https://plugins.gradle.org/plugin/org.cyclonedx.bom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for PHP Composer",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX SBOMs for PHP Composer projects",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-php-composer",
+      "website_url": "https://packagist.org/packages/cyclonedx/cyclonedx-php-composer",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX PHP Library",
+      "publisher": "CycloneDX",
+      "description": "Work with CycloneDX data format in PHP",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "LIBRARY"
+      ],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-php-library",
+      "website_url": "https://packagist.org/packages/cyclonedx/cyclonedx-library",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for Python",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX SBOMs for Python projects",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-python",
+      "website_url": "https://pypi.org/project/cyclonedx-bom/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX Python Library",
+      "publisher": "CycloneDX",
+      "description": "Python Library for generating CycloneDX SBOMs",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "LIBRARY"
+      ],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-python-lib",
+      "website_url": "https://pypi.org/project/cyclonedx-python-lib/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for Ruby Gems",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX SBOMs for Ruby projects",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-ruby-gem",
+      "website_url": "https://rubygems.org/gems/cyclonedx-ruby",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for Rust Cargo",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX SBOMs for Rust Cargo projects",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-rust-cargo",
+      "website_url": "https://crates.io/crates/cyclonedx-bom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for SBT (Scala)",
+      "publisher": "Fabrizio Di Giuseppe",
+      "description": "Creates CycloneDX SBOMs for SBT (Scala) projects",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/siculo/sbt-bom",
+      "website_url": "https://github.com/siculo/sbt-bom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for Erlang/Elixir (Mix)",
+      "publisher": "Bram Verburg",
+      "description": "Creates CycloneDX SBOMs for Mix projects",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/voltone/sbom",
+      "website_url": "https://hex.pm/packages/sbom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for Erlang/Elixir (Rebar3)",
+      "publisher": "Bram Verburg",
+      "description": "Creates CycloneDX SBOMs for Rebar3 projects",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/voltone/rebar3_sbom",
+      "website_url": "https://hex.pm/packages/rebar3_sbom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for Go",
+      "publisher": "OZON",
+      "description": "Creates CycloneDX SBOMs for Go projects",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/ozonru/cyclonedx-go",
+      "website_url": "https://github.com/ozonru/cyclonedx-go",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for Bower",
+      "publisher": "Hans Thorhauge Dam",
+      "description": "Creates CycloneDX SBOMs for Javascript projects using Bower",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/hanstdam/cdx-bower-bom",
+      "website_url": "https://www.npmjs.com/package/cdx-bower-bom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "cdxgen",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX Software Bill of Materials (SBOM) for multiple languages,",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cdxgen",
+      "website_url": "https://github.com/CycloneDX/cdxgen",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX-Buildroot",
+      "publisher": "CycloneDX",
+      "description": "The CycloneDX-buildroot module creates a valid CycloneDX",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-buildroot",
+      "website_url": "https://github.com/CycloneDX/cyclonedx-buildroot",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Eclipse SW360 Antenna",
+      "publisher": "Eclipse",
+      "description": "Creates CycloneDX SBOMs from Maven projects",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/eclipse/antenna",
+      "website_url": "https://www.eclipse.org/antenna",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX Node.js Generate SBOM",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX SBOMs from Node.js (NPM) projects via GitHub action",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "repository_url": "https://github.com/CycloneDX/gh-node-module-generatebom",
+      "website_url": "https://github.com/marketplace/actions/cyclonedx-node-js-generate-sbom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX .NET Generate SBOM",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX SBOMs from .NET projects via GitHub action",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "repository_url": "https://github.com/CycloneDX/gh-dotnet-generate-sbom",
+      "website_url": "https://github.com/marketplace/actions/cyclonedx-net-generate-sbom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX PHP Composer Generate SBOM",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX SBOMs from PHP Composer projects via GitHub action",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "repository_url": "https://github.com/CycloneDX/gh-php-composer-generate-sbom",
+      "website_url": "https://github.com/marketplace/actions/cyclonedx-php-composer-generate-sbom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX Python Generate SBOM",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX SBOMs from Python projects via GitHub action",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "repository_url": "https://github.com/CycloneDX/gh-python-generate-sbom",
+      "website_url": "https://github.com/marketplace/actions/cyclonedx-python-generate-sbom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Generate SBoM for Elixir project",
+      "publisher": "Red Shirts",
+      "description": "Creates CycloneDX SBOMs from Erlang/Elixir Mix projects via GitHub",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "repository_url": "https://github.com/red-shirts/action-mix-sbom",
+      "website_url": "https://github.com/marketplace/actions/generate-sbom-for-elixir-project",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "OSS Review Toolkit (ORT)",
+      "publisher": "OSS Review Toolkit",
+      "description": "A suite of tools to assist with reviewing Open Source Software dependencies.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION",
+        "TRANSFORM"
+      ],
+      "packaging": [
+        "LIBRARY"
+      ],
+      "repository_url": "https://github.com/oss-review-toolkit/ort",
+      "website_url": "http://oss-review-toolkit.org/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Retire.js",
+      "publisher": "RetireJS",
+      "description": "Scanner that detects the use of JavaScript libraries with known vulnerabilities",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [],
+      "repository_url": "https://github.com/RetireJS/retire.js",
+      "website_url": "https://retirejs.github.io/retire.js",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Dependency-Track",
+      "publisher": "OWASP",
+      "description": "Supply Chain Component Analysis platform that allows organizations",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/DependencyTrack/dependency-track",
+      "website_url": "https://dependencytrack.org/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Dependency-Track Jenkins Plugin",
+      "publisher": "OWASP",
+      "description": "Publishes SBOMs to Dependency-Track for per-build analysis, result",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/jenkinsci/dependency-track-plugin",
+      "website_url": "https://plugins.jenkins.io/dependency-track",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Dependency-Track Maven Plugin",
+      "publisher": "Paul McKeown",
+      "description": "Maven plugin that integrates with a Dependency-Track server to submit",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/pmckeown/dependency-track-maven-plugin",
+      "website_url": "https://github.com/pmckeown/dependency-track-maven-plugin#readme",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "dtrack-audit",
+      "publisher": "OZON",
+      "description": "Publishes SBOMs to Dependency-Track for analysis and displays visualization",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/ozonru/dtrack-audit",
+      "website_url": "https://github.com/ozonru/dtrack-audit",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "ShiftLeft Scan",
+      "publisher": "ShiftLeft",
+      "description": "An open-source security tool for modern DevSecOps teams that can detect",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/ShiftLeftSecurity/sast-scan",
+      "website_url": "https://www.shiftleft.io/scan/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SCANOSS",
+      "publisher": "SCANOSS",
+      "description": "An open source inventory engine built for modern development teams",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/scanoss/engine",
+      "website_url": "https://scanoss.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "oss_inventory",
+      "publisher": "Thiago Pinto",
+      "description": "Import CycloneDX BOMs and see OSS statistics",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/thspinto/oss_inventory",
+      "website_url": "https://github.com/thspinto/oss_inventory",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Auditjs",
+      "publisher": "Sonatype",
+      "description": "Audits an NPM package.json file to identify known vulnerabilities",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/sonatype-nexus-community/auditjs",
+      "website_url": "https://github.com/sonatype-nexus-community/auditjs",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Chelsea",
+      "publisher": "Sonatype",
+      "description": "Dependency vulnerability auditor for Ruby",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/sonatype-nexus-community/chelsea",
+      "website_url": "https://github.com/sonatype-nexus-community/chelsea",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Jake",
+      "publisher": "Sonatype",
+      "description": "An OSS Index integration to check your Conda environments for vulnerable",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/sonatype-nexus-community/jake",
+      "website_url": "https://github.com/sonatype-nexus-community/jake",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Nancy",
+      "publisher": "Sonatype",
+      "description": "A tool to check for vulnerabilities in your Golang dependencies, powered",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/sonatype-nexus-community/nancy",
+      "website_url": "https://github.com/sonatype-nexus-community/nancy",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Go Sonatypes",
+      "publisher": "Sonatype",
+      "description": "Common utility packages for working with OSS Index, Nexus IQ Server,",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "LIBRARY"
+      ],
+      "repository_url": "https://github.com/sonatype-nexus-community/go-sona-types",
+      "website_url": "https://github.com/sonatype-nexus-community/go-sona-types",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Valaa Stack",
+      "publisher": "Valaa Technologies",
+      "description": "SBoMDoc is a VDoc extension which uses CycloneDX namespaces and can",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "TRANSFORM"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/valaatech/kernel",
+      "website_url": "https://valospace.org/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Nexus IQ",
+      "publisher": "Sonatype",
+      "description": "Software Composition Analysis (SCA) platform that can consume, analyze,",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://www.sonatype.com/product-nexus-lifecycle",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Nexus Lifecycle Jenkins Plugin",
+      "publisher": "Sonatype",
+      "description": "Publishes CycloneDX SBOMs to Nexus IQ for per-build analysis, result",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/jenkinsci/nexus-platform-plugin",
+      "website_url": "https://plugins.jenkins.io/nexus-jenkins-plugin",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "MedScan",
+      "publisher": "MedSec",
+      "description": "Consumes SBOM’s for helping hospitals manage medical device assets",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://www.medsec.com/medscan/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Reliza Hub",
+      "publisher": "Reliza",
+      "description": "Publishes Reliza Hub metadata as SBOM for use in other tools or ingests",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [],
+      "packaging": [],
+      "website_url": "https://relizahub.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SwiftBOM",
+      "publisher": "CERT Coordination Center (CERT/CC)",
+      "description": "Generates SBOMs for demo and PoC purposes",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "AUTHOR"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CERTCC/SBOM",
+      "website_url": "https://sbom.democert.org/sbom/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "DtrackAuditor",
+      "publisher": "Thinksabin",
+      "description": "Publishes SBOMs to Dependency-Track for analysis and results through",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/thinksabin/DTrackAuditor",
+      "website_url": "https://github.com/thinksabin/DTrackAuditor",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Syft",
+      "publisher": "Anchore",
+      "description": "CLI tool and library for generating a Software Bill of Materials from",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [
+        "LIBRARY"
+      ],
+      "repository_url": "https://github.com/anchore/syft",
+      "website_url": "https://github.com/anchore/syft",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Grype",
+      "publisher": "Anchore",
+      "description": "A vulnerability scanner for container images and filesystems.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/anchore/grype",
+      "website_url": "https://github.com/anchore/grype",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX CLI",
+      "publisher": "CycloneDX",
+      "description": "A command line tool incorporating many common utilities including: alter an SBOM, convert between SBOM formats, merge multiple SBOMs, sign an SBOM file, validate an SBOM, verify signatures in an SBOM",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "TRANSFORM",
+        "SIGNING/NOTARY",
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-cli",
+      "website_url": "https://github.com/CycloneDX/cyclonedx-cli",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX Web Tool",
+      "publisher": "CycloneDX",
+      "description": "A web based tool incorporating many common utilities including: convert between SBOM formats, merge multiple SBOMs, validate an SBOM",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "TRANSFORM"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-web-tool",
+      "website_url": "https://cyclonedx.github.io/cyclonedx-web-tool/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX Rust",
+      "publisher": "Mark Dodgson",
+      "description": "A Rust library to encode and decode the CycloneDX object model",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "LIBRARY"
+      ],
+      "repository_url": "https://github.com/doddi/cyclonedx-rust",
+      "website_url": "https://github.com/doddi/cyclonedx-rust",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for Cocoapods",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX SBOMs for iOS Objective-C and Swift projects",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-cocoapods",
+      "website_url": "https://github.com/CycloneDX/cyclonedx-cocoapods",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "mdbom",
+      "publisher": "Robert Hansel",
+      "description": "Transforms CycloneDX SBOMs to Markdown",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "TRANSFORM"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/HaRo87/mdbom",
+      "website_url": "https://haro87.github.io/mdbom/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "OpenRewrite",
+      "publisher": "OpenRewrite Project",
+      "description": "Rewrite is a mass refactoring system, designed to eliminate technical",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [],
+      "repository_url": "https://github.com/openrewrite/rewrite",
+      "website_url": "https://github.com/openrewrite/rewrite",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Defect Dojo",
+      "publisher": "OWASP",
+      "description": "Open source vulnerability management and automation platform that can",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/DefectDojo/django-DefectDojo",
+      "website_url": "https://www.defectdojo.org/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "OSS Inventory",
+      "publisher": "Thiago Pinto",
+      "description": "Imports CycloneDX SBOMs and visualizes OSS statistics",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [],
+      "repository_url": "https://github.com/thspinto/oss_inventory",
+      "website_url": "https://github.com/thspinto/oss_inventory",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Fortress File Integrity Assurance",
+      "publisher": "Fortress Information Security",
+      "description": "Creates SBOM from binary or archive, consumes externally provided SBOM,",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://fortressinfosec.com/solutions/file-integrity-assurance",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Fortress Asset 2 Vendor",
+      "publisher": "Fortress Information Security",
+      "description": "Comprehensive Cyber Supply Chain Risk Management data library that",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "DISTRIBUTE"
+      ],
+      "packaging": [],
+      "website_url": "https://assettovendor.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Software Assurance Guardian Point Man",
+      "publisher": "Reliable Energy Analytics LLC",
+      "description": "SAG-PM processes CycloneDX SBOM’s as part of a seven step software",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://reliableenergyanalytics.com/products",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Cybeats SBOM Studio",
+      "publisher": "Cybeats Technologies Inc.",
+      "description": "Manage SBOMs at scale and proactively discover & reduce risk across the entire",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "AUTHOR",
+        "ANALYSIS",
+        "TRANSFORM",
+        "PACKAGE_MANAGER_INTEGRATION",
+        "DISTRIBUTE"
+      ],
+      "packaging": [],
+      "website_url": "https://cybeats.com",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "TrustSource",
+      "publisher": "TrustSource",
+      "description": "TrustSource is a SaaS platform for implementing and maintaining open",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://www.trustsource.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "JDisc Discovery",
+      "publisher": "JDisc",
+      "description": "Network discovery and IT inventory that can discover CycloneDX SBOMs",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://www.jdisc.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "PulseUno Plugin for Dimensions CM",
+      "publisher": "Micro Focus",
+      "description": "PulseUno enables development teams to continually build and inspect",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://www.microfocus.com/en-us/products/dimensions-cm",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX GoMod Generate SBOM",
+      "publisher": "CycloneDX",
+      "description": "GitHub action which generates CycloneDX SBOMs from Go modules",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "repository_url": "https://github.com/CycloneDX/gh-gomod-generate-sbom",
+      "website_url": "https://github.com/marketplace/actions/cyclonedx-gomod-generate-sbom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "BOM Repository Server",
+      "publisher": "CycloneDX",
+      "description": "'A lightweight repository server used to publish, manage, and distribute",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "DISTRIBUTE"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-bom-repo-server",
+      "website_url": "https://github.com/CycloneDX/cyclonedx-bom-repo-server",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "ittosai",
+      "publisher": "DevOps KungFu Masters",
+      "description": "ittosai is a CycloneDX SBOM vulnerability analyzer that analyzes SBOMs",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/devops-kung-fu/ittosai",
+      "website_url": "https://dkfm.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CodeSentry",
+      "publisher": "GrammaTech",
+      "description": "Software Composition Analysis (SCA) platform that leverages binary",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://www.grammatech.com/codesentry-sca",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Heimdall",
+      "publisher": "Medcrypt",
+      "description": "Automatically extract or manually upload your Software Bill of Materials",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://medcrypt.com/heimdall.html",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Contrast Security",
+      "publisher": "Contrast Security",
+      "description": "Automatically generates component inventory from runtime analysis (IAST",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://www.contrastsecurity.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Salus",
+      "publisher": "Coinbase",
+      "description": "Salus is a tool for coordinating the execution of security scanners.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/coinbase/salus",
+      "website_url": "https://github.com/coinbase/salus",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Codenotary vcn",
+      "publisher": "Codenotary",
+      "description": "Protects an organizations software development pipeline from supply",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "SIGNING/NOTARY"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/codenotary/vcn",
+      "website_url": "https://codenotary.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CodeNotary CAS",
+      "publisher": "CodeNotary",
+      "description": "CAS is an open source attestation service for the community. Notarize",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "SIGNING/NOTARY"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/codenotary/cas",
+      "website_url": "https://cas.codenotary.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Codenotary CAS Notarize Docker Image and SBOM",
+      "publisher": "Codenotary",
+      "description": "A GitHub Action which notarizes and creates an SBOM for Docker images.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "SIGNING/NOTARY"
+      ],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "repository_url": "https://github.com/codenotary/cas-notarize-docker-image-bom-github-action",
+      "website_url": "https://cas.codenotary.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Codenotary CAS Authenticate Docker Image and SBOM",
+      "publisher": "Codenotary",
+      "description": "A GitHub Action which authenticates notarized Docker images and SBOMs.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "SIGNING/NOTARY"
+      ],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "repository_url": "https://github.com/codenotary/cas-authenticate-docker-bom-github-action",
+      "website_url": "https://cas.codenotary.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Cosign",
+      "publisher": "Sigstore",
+      "description": "Container Signing, Verification and Storage in an OCI registry, including",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "SIGNING/NOTARY"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/sigstore/cosign",
+      "website_url": "https://sigstore.dev/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Tern",
+      "publisher": "Tern",
+      "description": "Tern is a software composition analysis tool and Python library that",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/tern-tools/tern",
+      "website_url": "https://github.com/tern-tools/tern",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Cybellum SBOM",
+      "publisher": "Cybellum Technologies LTD.",
+      "description": "Analyzes binary artifacts to generate SBoM including context based",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://cybellum.com",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Scancode Toolkit",
+      "publisher": "nexB",
+      "description": "ScanCode detects licenses, copyrights, package manifests & dependencies",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/nexB/scancode-toolkit",
+      "website_url": "https://github.com/nexB/scancode-toolkit",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "swift-package-sbom-generator",
+      "publisher": "Mattt",
+      "description": "A software bill of materials (SBOM) generator for Swift packages",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/mattt/swift-package-sbom",
+      "website_url": "https://github.com/mattt/swift-package-sbom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SRC:CLR SBOM Generator",
+      "publisher": "Veracode",
+      "description": "Generates a Software Bill of Materials in CycloneDX JSON Format from",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "TRANSFORM"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/veracode/srcclr_sbom_gen",
+      "website_url": "https://github.com/veracode/srcclr_sbom_gen",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "NowSecure Platform",
+      "publisher": "NowSecure",
+      "description": "NowSecure automates security and privacy testing of mobile applications",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://www.nowsecure.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Ion Channel Platform",
+      "publisher": "Ion Channel",
+      "description": "Ion Channel is a software supply chain assurance platform that transforms",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://ionchannel.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for Conan1",
+      "publisher": "CycloneDX",
+      "description": "Creates CycloneDX Software Bill of Materials (SBOM) for C/C++ projects",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/cyclonedx-conan",
+      "website_url": "https://github.com/CycloneDX/cyclonedx-conan",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX for Conan2",
+      "publisher": "Conan-IO",
+      "description": "Creates CycloneDX Software Bill of Materials (SBOM) for C/C++ projects",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/conan-io/conan-extensions",
+      "website_url": "https://github.com/conan-io/conan-extensions",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Checkov",
+      "publisher": "Checkov",
+      "description": "Prevent cloud misconfigurations during build-time for Terraform, Cloudformation,",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/bridgecrewio/checkov",
+      "website_url": "https://www.checkov.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM CLI",
+      "publisher": "Defense Unicorns",
+      "description": "Creates CycloneDX SBOMs from Kubernetes Helm charts",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/defenseunicorns/sbom-cli",
+      "website_url": "https://github.com/defenseunicorns/sbom-cli",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CxSCA",
+      "publisher": "Checkmarx",
+      "description": "Checkmarx SCA is a Software Composition Analysis (SCA) platform that",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://checkmarx.com/product/cxsca-open-source-scanning",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Ochrona CLI",
+      "publisher": "Ochrona",
+      "description": "A command line tool for detecting vulnerabilities in Python dependencies",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/ochronasec/ochrona-cli",
+      "website_url": "https://ochrona.dev/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "pip-audit",
+      "publisher": "Trail of Bits",
+      "description": "Audits Python environments and dependency trees for known vulnerabilities.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION",
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/trailofbits/pip-audit",
+      "website_url": "https://github.com/trailofbits/pip-audit",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "RKVST SBOM Hub",
+      "publisher": "RKVST",
+      "description": "A free SaaS repo to find and fetch public or private CycloneDX v1.4",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "DISTRIBUTE"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/jitsuin-inc/archivist-samples",
+      "website_url": "https://sbom.rkvst.io",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "WpBom",
+      "publisher": "Sepbit",
+      "description": "WordPress integration with OWASP CycloneDX and Dependency Track",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/sepbit/wpbom",
+      "website_url": "https://wordpress.org/plugins/wpbom/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Meterian BOSS scanner",
+      "publisher": "Meterian",
+      "description": "Software composition analysis for codebases providing precise and comprehensive",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "website_url": "https://meterian.io/products/boss",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Spack",
+      "publisher": "Spack",
+      "description": "Spack is a package manager for supercomputers, Linux, and macOS. The",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/spack/spack-sbom",
+      "website_url": "https://spack.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "build-info-go",
+      "publisher": "JFrog",
+      "description": "build-info-go is a Go library and a CLI, which allows generating build-info",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/jfrog/build-info-go",
+      "website_url": "https://github.com/jfrog/build-info-go",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Kyverno",
+      "publisher": "Kyverno",
+      "description": "Kyverno is a policy engine designed for Kubernetes. It can validate,",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [],
+      "repository_url": "https://github.com/kyverno/kyverno",
+      "website_url": "https://github.com/kyverno/kyverno",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "jbom",
+      "publisher": "Contrast Security",
+      "description": "jbom generates a CycloneDX Software Bill of Materials (SBOM) for apps",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [],
+      "repository_url": "https://github.com/Contrast-Security-OSS/jbom",
+      "website_url": "https://github.com/Contrast-Security-OSS/jbom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "KICS",
+      "publisher": "Checkmarx",
+      "description": "Find security vulnerabilities, compliance issues, and infrastructure",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [],
+      "repository_url": "https://github.com/Checkmarx/kics",
+      "website_url": "https://www.kics.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Xray",
+      "publisher": "JFrog",
+      "description": "JFrog Xray is a software composition analysis (SCA) solution that proactively",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [],
+      "packaging": [],
+      "website_url": "https://jfrog.com/xray/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "apt2sbom",
+      "publisher": "Eliot Lear",
+      "description": "Build an SBOM out of APT and python information",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/elear/apt2sbom",
+      "website_url": "https://github.com/elear/apt2sbom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "NetRise Turbine",
+      "publisher": "NetRise",
+      "description": "NetRise Turbine is a firmware analysis platform that creates SBOMs",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [],
+      "packaging": [],
+      "website_url": "https://www.netrise.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Rebom",
+      "publisher": "Reliza",
+      "description": "Rebom by Reliza is an open source catalog of Software Bills of Materials",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "DISTRIBUTE"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/relizaio/rebom",
+      "website_url": "https://rebomdemo.relizahub.com",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "cve-bin-tool",
+      "publisher": "Intel",
+      "description": "CVE bin tool scans for a number of common, vulnerable components to",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/intel/cve-bin-tool",
+      "website_url": "https://cve-bin-tool.readthedocs.io/en/latest/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Jetstack Secure",
+      "publisher": "Jetstack",
+      "description": "Jetstack Secure manages your machine identities across Cloud Native",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [],
+      "repository_url": "https://github.com/jetstack/jetstack-secure",
+      "website_url": "https://www.jetstack.io/jetstack-secure/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Keysight IoT Security Assessment",
+      "publisher": "Keysight",
+      "description": "Keysight Automated Firmware Analysis, part of the Keysight IoT Security Assessment product, delivers highly accurate SBOMs and identifies CVEs, misconfigurations, hardcoded credentials, weak cryptography, and potential zero-day vulnerabilities.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [],
+      "packaging": [],
+      "website_url": "https://www.keysight.com/be/en/products/network-security/iot-security-assessment.html",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Ko",
+      "publisher": "Google",
+      "description": "Build and deploy Go applications on Kubernetes. Generates CycloneDX",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/google/ko",
+      "website_url": "https://github.com/google/ko",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Sonatype Lift",
+      "publisher": "Sonatype",
+      "description": "Sonatype Lift is a cloud-native, collaborative, code analysis platform",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://lift.sonatype.com/",
+      "website_url": "https://lift.sonatype.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "spdxcyclone",
+      "publisher": "Gary O'Neall",
+      "description": "Prototype utility that converts SBOM documents between SPDX and CycloneDX.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "TRANSFORM"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/goneall/spdxcyclone",
+      "website_url": "https://github.com/goneall/spdxcyclone",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Trivy",
+      "publisher": "Aqua Security",
+      "description": "Trivy is an open source cloud native security scanner. It can scan a variety",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION",
+        "ANALYSIS",
+        "TRANSFORM"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/aquasecurity/trivy",
+      "website_url": "https://aquasecurity.github.io/trivy/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Apiiro",
+      "publisher": "Apiiro",
+      "description": "Apiiro enables security & development teams to proactively remediate",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://apiiro.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Gemnasium",
+      "publisher": "GitLab",
+      "description": "Dependency Scanning analyzer that uses the GitLab Advisory Database",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Lagoon Insights Handler",
+      "publisher": "Lagoon",
+      "description": "Lagoon is an application delivery platform for Kubernetes that supports",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/uselagoon/insights-handler",
+      "website_url": "https://lagoon.sh/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SnykVulnCheck",
+      "publisher": "Andrii Grytsenko",
+      "description": "SnykVulnCheck analyzes the contents of CycloneDX SBOMs and evaluates",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/Andrii-Grytsenko-OWASP/SnykVulnCheck",
+      "website_url": "https://github.com/Andrii-Grytsenko-OWASP/SnykVulnCheck",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "apko",
+      "publisher": "Chainguard",
+      "description": "Build OCI images using APK directly without Dockerfile. Generates CycloneDX",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/chainguard-dev/apko",
+      "website_url": "https://apko.dev/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "OSV",
+      "publisher": "Google",
+      "description": "OSV is an open source vulnerability database and triage service. OSV",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/google/osv",
+      "website_url": "https://osv.dev/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "docker-sbom-cli-plugin",
+      "publisher": "Docker",
+      "description": "Plugin for Docker CLI that generates CycloneDX SBOMs.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/docker/docker-sbom-cli-plugin",
+      "website_url": "https://github.com/docker/docker-sbom-cli-plugin",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "ThreatMapper",
+      "publisher": "Deepfence",
+      "description": "Deepfence ThreatMapper hunts for vulnerabilities in production platforms,",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/deepfence/ThreatMapper",
+      "website_url": "https://deepfence.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "JupiterOne",
+      "publisher": "JupiterOne",
+      "description": "Easily identify, map, analyze, and secure cyber assets and attack surface.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://jupiterone.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Veracode",
+      "publisher": "Veracode",
+      "description": "API to output SBOM in CycloneDX (JSON) format based on Veracode's software",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://www.veracode.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Tidelift",
+      "publisher": "Tidelift",
+      "description": "Tidelift is a managed open source subscription, offering commercial",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [],
+      "packaging": [],
+      "website_url": "https://tidelift.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Bytesafe",
+      "publisher": "Bytesafe",
+      "description": "A Dependency Firewall that protects organizations from malicious dependencies.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://bytesafe.dev/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "KubeClarity",
+      "publisher": "Cisco",
+      "description": "KubeClarity is a tool for detection and management of Software Bill",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/cisco-open/kubei",
+      "website_url": "https://github.com/cisco-open/kubei",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Flawnter",
+      "publisher": "CyberTest",
+      "description": "Flawnter Static Code Analyzer helps improve the security and quality",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://www.flawnter.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SonarQube",
+      "publisher": "SonarSource",
+      "description": "SonarQube allows developers and development teams to write clean code",
+      "availability": [
+        "OPEN_SOURCE",
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://sonarsource.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Black Duck",
+      "publisher": "Synopsys",
+      "description": "Black Duck software composition analysis (SCA) helps teams manage the",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM-Operator",
+      "publisher": "Christian Kotzbauer",
+      "description": "Catalogue all images of a Kubernetes cluster to multiple targets with",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://github.com/ckotzbauer/sbom-operator",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "yasca (Yet Another SCA tool)",
+      "publisher": "Javi",
+      "description": "Yasca is an opensource SCA tool that leverages Github advisories. The",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/javixeneize/yasca",
+      "website_url": "https://github.com/javixeneize/yasca",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Rezilion Dynamic SBOM",
+      "publisher": "Rezilion",
+      "description": "Continuous inventory of all software components down to the file/class level from development to production across entire tech stack. Dynamically track associated supply chain risks, dependencies, and behaviors and validate exploitability in runtime.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "AUTHOR",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://www.rezilion.com/platform/dynamic-sbom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "BlackBerry Jarvis",
+      "publisher": "BlackBerry",
+      "description": "Software composition analysis (SCA) and security testing solution that detects and list open-source software and software licenses within embedded systems and associated cybersecurity vulnerabilities and exposures",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://blackberry.qnx.com/en/products/security/blackberry-jarvis",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Fortify Software Security Center",
+      "publisher": "Micro Focus",
+      "description": "Open source plugin for Fortify Software Security Center (SSC) that parses CycloneDX BOMs and integrates vulnerability data within the SSC portal",
+      "availability": [
+        "SUBSCRIPTION",
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [],
+      "repository_url": "https://github.com/fortify-ps/fortify-ssc-parser-cyclonedx",
+      "website_url": "https://github.com/fortify-ps/fortify-ssc-parser-cyclonedx",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "sbom-submission-action",
+      "publisher": "TietoEVRY",
+      "description": "GitHub Action that submits CycloneDX SBOMs to GitHub's dependency submission API",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "repository_url": "https://github.com/evryfs/sbom-dependency-submission-action",
+      "website_url": "https://github.com/marketplace/actions/sbom-submission-action",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Vexy",
+      "publisher": "Paul Horton",
+      "description": "Generate VEX (Vulnerability Exploitability Exchange) CycloneDX documents",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [],
+      "repository_url": "https://github.com/madpah/vexy",
+      "website_url": "https://github.com/madpah/vexy",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Project Piper",
+      "publisher": "SAP",
+      "description": "Jenkins shared library for Continuous Delivery pipelines, applicable to projects both for SAP BTP and SAP on-premise platforms. Project Piper can generates CycloneDX BOMs for multiple ecosystems.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/SAP/jenkins-library",
+      "website_url": "https://www.project-piper.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "action-owasp-dependecy-track-check",
+      "publisher": "Quobis",
+      "description": "Github action that generates BOMs and uploads them to OWASP Dependency-Track for vulnerability analysis",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "repository_url": "https://github.com/Quobis/action-owasp-dependecy-track-check",
+      "website_url": "https://github.com/Quobis/action-owasp-dependecy-track-check",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "LicenseComplianceTool",
+      "publisher": "medavis GmbH",
+      "description": "A Jenkins plugin to create listings of third-party components and their licenses",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/medavis-gmbh/LicenseComplianceTool",
+      "website_url": "https://github.com/medavis-gmbh/LicenseComplianceTool",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "sbom-action",
+      "publisher": "Pete Wagner",
+      "description": "GitHub action which can diff CycloneDX SBOMs on pull request and on commit",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/thepwagner/sbom-action",
+      "website_url": "https://github.com/thepwagner/sbom-action",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "DaggerBoard",
+      "publisher": "NewYork-Presbyterian Hospital",
+      "description": "DaggerBoard is a vulnerability scanning tool that ingests Software Bill of Material (SBOM) files and outputs results in a human-readable format. This tool evaluates software dependencies outlined within the SBOM file for package vulnerabilities.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/nyph-infosec/daggerboard",
+      "website_url": "https://github.com/nyph-infosec/daggerboard",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "gobom",
+      "publisher": "Mattermost",
+      "description": "An extensible CycloneDX BOM generator and Dependency-Track API client written in Go",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/mattermost/gobom",
+      "website_url": "https://github.com/mattermost/gobom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "sca-codeinsight-reports-cyclonedx",
+      "publisher": "Flexera",
+      "description": "Report generation tools for Flexera Code Insight. The report allows generates CycloneDX software bill of materials (SBOM) for a given project",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [],
+      "repository_url": "https://github.com/flexera-public/sca-codeinsight-reports-cyclonedx",
+      "website_url": "https://github.com/flexera-public/sca-codeinsight-reports-cyclonedx",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "meta-dependencytrack",
+      "publisher": "BG Networks",
+      "description": "meta-dependencytrack is a Yocto meta-layer which produces a CycloneDX Software Bill of Materials (aka SBOM) from your root filesystem and then uploads it to a Dependency-Track server against the project of your choice",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [],
+      "repository_url": "https://github.com/bgnetworks/meta-dependencytrack",
+      "website_url": "https://github.com/bgnetworks/meta-dependencytrack",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Mend SCA",
+      "publisher": "Mend (Whitesource)",
+      "description": "Mend allows organizations to gain full visibility and control over their open source usage. Mend SCA exports direct and transitive dependencies in CycloneDX format.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [],
+      "packaging": [],
+      "website_url": "https://www.mend.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Prisma Cloud",
+      "publisher": "Palo Alto Networks",
+      "description": "Prisma® Cloud secures infrastructure, applications, data and entitlements across the world’s largest clouds, all from a single unified solution.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [],
+      "packaging": [],
+      "website_url": "https://paloaltonetworks.com",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CAST Highlight",
+      "publisher": "CAST",
+      "description": "CAST Highlight automatically analyzes source code of hundreds of applications in a week for Software Composition Analysis (Open Source risks), Cloud Readiness, Resiliency, and Technical Debt.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION",
+        "ANALYSIS"
+      ],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "website_url": "https://www.castsoftware.com/products/highlight",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CAST SBOM Manager",
+      "publisher": "CAST",
+      "description": "CAST SBOM Manager is a free software that enables users to automatically create, customize, and maintain Software Bill of Materials (SBOMs) with the ultimate level of control and flexibility.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "AUTHOR",
+        "DISTRIBUTE",
+        "TRANSFORM"
+      ],
+      "packaging": [],
+      "website_url": "https://www.castsoftware.com/sbommanager",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Kondukto",
+      "publisher": "Kondukto",
+      "description": "Kondukto is an Application Security Orchestration and Correlation tool to manage vulnerability scanning tools and remediation workflows to increase AppSec Team efficiency. It can consume and analyzes CycloneDX SBOMs via CI/CD integration or manual.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [],
+      "packaging": [],
+      "website_url": "https://kondukto.io",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Enso",
+      "publisher": "Enso Security",
+      "description": "Enso is an Application Security Posture Management (ASPM) platform that automates the identification of software assets as well as the tracking and scheduling of all application security tools and processes.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [],
+      "packaging": [],
+      "website_url": "https://www.enso.security",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Tally",
+      "publisher": "Jetstack",
+      "description": "Finds OpenSSF Scorecard scores for packages in a CycloneDX Software Bill of Materials",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [],
+      "repository_url": "https://github.com/jetstack/tally",
+      "website_url": "https://github.com/jetstack/tally",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SecureStack",
+      "publisher": "SecureStack",
+      "description": "SecureStack analyzes your application and finds all source code, cloud stack and third-party services and builds a CycloneDX SBOM every time you deploy",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://securestack.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM Insights",
+      "publisher": "Revenera",
+      "description": "SBOM Insights is a SaaS solution that helps organizations manage their Software Bill of Materials (SBOM)",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [],
+      "packaging": [],
+      "website_url": "https://www.revenera.com/software-composition-analysis/products/sbom-insights",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "EMBA",
+      "publisher": "EMBA Project",
+      "description": "EMBA is a security analyzer for firmware and embedded devices supporting firmware extraction, static analysis, dynamic analysis, and CycloneDX SBOM production",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/e-m-b-a/emba",
+      "website_url": "https://www.securefirmware.de",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "secure.software",
+      "publisher": "ReversingLabs",
+      "description": "Software supply chain security protection for CI/CD workflows, containers, and release packages that enables DevSecOps teams to release software with confidence.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://www.reversinglabs.com/products/software-supply-chain-security",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Arsenal",
+      "publisher": "Deepbits",
+      "description": "A free online toolset for software supply chain analysis, including AI-powered SBOM/SaaSBOM building and risk analysis services for COTS software, open-source software artifacts, public code repositories, and public docker images.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://tools.deepbits.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Fortify on Demand",
+      "publisher": "Micro Focus",
+      "description": "AppSec platform, powered by expert research teams and machine learning/AI, aimed at protecting the integrity of your software supply chain by producing and consuming CycloneDX SBOMs for a wide range of languages and package managers.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://www.microfocus.com/en-us/cyberres/application-security/fortify-on-demand",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOMDiff",
+      "publisher": "Anthony Harrison",
+      "description": "A command line tool which compares two SBOMs and reports any differences. Differences in licence inforamtion, version information and the additon or removal of a package are identified. Both CycloneDX and SPDX SBOMs are supported.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/anthonyharrison/sbomdiff",
+      "website_url": "https://pypi.org/project/sbomdiff/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM4Python",
+      "publisher": "Anthony Harrison",
+      "description": "A command line tool which creates CycloneDX and SPDX SBOMs an installed Python module.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/anthonyharrison/sbom4python",
+      "website_url": "https://pypi.org/project/sbom4python/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM4Files",
+      "publisher": "Anthony Harrison",
+      "description": "A command line tool which creates CycloneDX and SPDX SBOMs for files within a directory.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/anthonyharrison/sbom4files",
+      "website_url": "https://pypi.org/project/sbom4files/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM4Rust",
+      "publisher": "Anthony Harrison",
+      "description": "A command line tool which creates CycloneDX and SPDX SBOMs for a Rust application.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/anthonyharrison/sbom4rust",
+      "website_url": "https://pypi.org/project/sbom4rust/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Distro2SBOM",
+      "publisher": "Anthony Harrison",
+      "description": "A command line tool which creates CycloneDX and SPDX SBOMs for an installed application or distribution (Debian and RPM type distributions supported).",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/anthonyharrison/distro2sbom",
+      "website_url": "https://pypi.org/project/distro2sbom/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM-Manager",
+      "publisher": "Anthony Harrison",
+      "description": "A command line tool which provides a simple repository server used to manage and query CycloneDX and SPDX SBOMs.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "DISTRIBUTE"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/anthonyharrison/sbom-manager",
+      "website_url": "https://pypi.org/project/sbom-manager/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOMAudit",
+      "publisher": "Anthony Harrison",
+      "description": "A command line tool which audits an SBOM to evaluate the content against specific criteria including evaluating licence information, whether the latest version of a module is being used and conformance against the NTIA minimum SBOM contents.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/anthonyharrison/sbomaudit",
+      "website_url": "https://pypi.org/project/sbomaudit/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM2doc",
+      "publisher": "Anthony Harrison",
+      "description": "A command line tool which produces a human-readable representaion of either a CycloneDX or SPDX SBOM. Output formats include PDF and Markdown.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/anthonyharrison/sbom2doc",
+      "website_url": "https://pypi.org/project/sbom2doc/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM2dot",
+      "publisher": "Anthony Harrison",
+      "description": "A command line tool which produces a visual representaion of the relationships within either a CycloneDX or SPDX SBOM.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/anthonyharrison/sbom2dot",
+      "website_url": "https://pypi.org/project/sbom2dot/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOMMerge",
+      "publisher": "Anthony Harrison",
+      "description": "A command line tool which merges two SBOMs together which can be in either CycloneDX or SPDX formats.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "TRANSFORM"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/anthonyharrison/sbommerge",
+      "website_url": "https://pypi.org/project/sbommerge/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Lib4sbom",
+      "publisher": "Anthony Harrison",
+      "description": "A Python library to consume and generate SBOMs in either CycloneDX or SPDX formats.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "LIBRARY"
+      ],
+      "repository_url": "https://github.com/anthonyharrison/lib4sbom",
+      "website_url": "https://pypi.org/project/lib4sbom/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "bomber",
+      "publisher": "DevOps Kung Fu Mafia",
+      "description": "Scans SBOMs (CycloneDX, SPDX, or Syft-formatted) for security vulnerabilities, using OSV or Sonatype OSS Index for analysis.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/devops-kung-fu/bomber",
+      "website_url": "https://github.com/devops-kung-fu/bomber",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Covenant",
+      "publisher": "Patrik Svensson",
+      "description": "A tool to generate SBOMs in CycloneDX or SPDX formats from source code artifacts (.NET 5/.NET 6, .NET Core, or NPM).",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "TRANSFORM"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/patriksvensson/covenant",
+      "website_url": "https://github.com/patriksvensson/covenant",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "ONEKEY firmware analysis platform",
+      "publisher": "ONEKEY",
+      "description": "Automatic firmware analysis platform exracting, enumerating and checking binary images to create SBOM & vulnerability reports.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://onekey.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Vuls",
+      "publisher": "Future Corp",
+      "description": "Agent-less vulnerability scanner for Linux, FreeBSD, containers, WordPress, programming language libraries and network devices which outputs CycloneDX Vulnerability Disclosure Reports (VDR)",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/future-architect/vuls",
+      "website_url": "https://vuls.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "StackAware",
+      "publisher": "StackAware",
+      "description": "StackAware helps organizations communicate about supply chain cybersecurity risk. A SaaS platform, it allows for the management and analysis of SBOMs as well as structured communications about the exploitability of vulnerabilities identified in them.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "DISTRIBUTE"
+      ],
+      "packaging": [],
+      "website_url": "https://stackaware.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Manifest",
+      "publisher": "Manifest",
+      "description": "Manifest provides an end-to-end SBOM management tool that lets organizations easily (and automatically) generate, aggregate, enrich, analyze, and securely share SBOMs.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "website_url": "https://manifestcyber.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Valint",
+      "publisher": "Scribe Security",
+      "description": "Scribe helps you build trust in the software you produce or use, across teams and organizations. You can generate, manage and share SBOMs, validate integrity, and track vulnerabilities of your containers, source repositories, dependencies, and pipeli",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION",
+        "ANALYSIS",
+        "SIGNING/NOTARY"
+      ],
+      "packaging": [],
+      "website_url": "https://scribesecurity.com/scribe-platform-lp",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Debricked",
+      "publisher": "OpenText",
+      "description": "Debricked allows you to manage your open source in an easy, smart and efficient manner. Automatically find, fix and prevent vulnerabilities, avoid non compliant licenses and choose better open source from the start - all in one tool.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://debricked.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "EXPLIoT IoT Security Assessment Framework",
+      "publisher": "EXPLIoT",
+      "description": "A Framework for security testing and exploiting IoT products and IoT infrastructure. It provides a set of plugins (test cases) which are used to perform the assessment and can be extended easily with new ones. Documentation - https://expliot.readthed",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://gitlab.com/expliot_framework/expliot",
+      "website_url": "https://expliot.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Endor Labs",
+      "publisher": "Endor Labs",
+      "description": "Endor Labs helps organizations maximize software reuse by enabling security and development teams to select, secure, and maintain OSS at scale. Endor Labs creates CycloneDX SBOMs and automatically generates VEX for software prodcuers.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://endorlabs.com",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Value Stream Management (VSM)",
+      "publisher": "LeanIX",
+      "description": "LeanIX Value Stream Management (VSM) can consume CycloneDX SBOMs via REST APIs, making data from hundreds of BOMs available in a search- & filterable catalog in relation to Team ownership and Product architecture",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://www.leanix.net/en/products/value-stream-management",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "RapidFort",
+      "publisher": "RapidFort",
+      "description": "RapidFort container optimization platform finds and eliminates unused container components and hardens containers so you spend less time on vulnerability remediation. RapidFort supports CycloneDX BOMs and VEX",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://www.rapidfort.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "FOSSA",
+      "publisher": "FOSSA",
+      "description": "Software Composition Analysis (SCA) platform that can ingest, analyze, and generate CycloneDX SBOMs",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://fossa.com",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM Quality Score",
+      "publisher": "Interlynk.io",
+      "description": "sbomqs cmdline tool, helps producers & consumers of sboms to quickly evaluate the quality of their sboms based on various categories. Tool can be integrated in your automation pipeline, to evaluate a minimum level of SBOM quality that is expected.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/interlynk-io/sbomqs",
+      "website_url": "https://www.interlynk.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM Grep",
+      "publisher": "Interlynk.io",
+      "description": "sbomgr is a grep like command line utility to help search the SBOM repository based on criteria like the name, checksum, CPE, and PURL.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/interlynk-io/sbomgr",
+      "website_url": "https://www.interlynk.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM Explorer",
+      "publisher": "Interlynk.io",
+      "description": "sbomex is a command line utility to help query and pull from Interlynk's public SBOM repository.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/interlynk-io/sbomex",
+      "website_url": "https://www.interlynk.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM Benchmark",
+      "publisher": "Interlynk.io",
+      "description": "Quickly evaluate SBOM for quality, compliance and errors",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://sbombenchmark.dev/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Amazon Inspector SBOM Generator",
+      "publisher": "Amazon Inspector",
+      "description": "Amazon Inspector SBOM Generator (inspector-sbomgen) produces SBOMs for various artifacts using multiple collectors, providing an inventory of packages and metadata for vulnerability scanning using Amazon Inspector ScanSBOM API (AWS account required).",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://docs.aws.amazon.com/inspector/latest/user/sbom-generator.html",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Xygeni Software Supply-Chain Security",
+      "publisher": "Xygeni",
+      "description": "Xygeni is a software supply chain security solution that provides visibility, security and integrity in DevOps environments, reducing the risk of breaches and detecting potential attacks, ensuring security in your software releases.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://xygeni.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM Utility (sbom-utility)",
+      "publisher": "CycloneDX",
+      "description": "Utility that provides an API platform for validating, querying and managing BOM data",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION",
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/cyclonedx/sbom-utility",
+      "website_url": "https://github.com/cyclonedx/sbom-utility",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "License Scanner",
+      "publisher": "CycloneDX",
+      "description": "Utility that provides an API and CLI to identify licenses and legal terms outputting CycloneDX with relevant information",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/license-scanner",
+      "website_url": "https://github.com/CycloneDX/license-scanner",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "gh-sbom",
+      "publisher": "GitHub",
+      "description": "Command Line Interface (CLI) extension to 'gh' that outputs CycloneDX JSON SBOMs from GitHub repositories using information from the Dependency graph",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/advanced-security/gh-sbom",
+      "website_url": "https://github.com/advanced-security/gh-sbom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SecObserve",
+      "publisher": "MaibornWolff",
+      "description": "SecObserve gathers results about potential security flaws from various vulnerability scanning tools and makes them available for assessment and reporting.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/MaibornWolff/SecObserve",
+      "website_url": "https://maibornwolff.github.io/SecObserve",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Abom",
+      "publisher": "Vulert.com",
+      "description": "Vulert's Abom scanner can monitor and alert you in real-time for open-source vulnerabilities in your software, without requiring access to your code or installation. It uses only an SBOM or manifest file, such as a package-lock.json file. No signup i",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://vulert.com/abom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Vigiles",
+      "publisher": "Timesys",
+      "description": "Vulnerability monitoring and remediation tool that combines a curated CVE database, continuous security feeds, powerful filtering, and easy triage tools. Supports Yocto, Buildroot, PetaLinux, Wind River Linux, PTXdist, OpenWrt, and Timesys Factory.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://www.timesys.com/solutions/vigiles-vulnerability-management/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Arnica",
+      "publisher": "Arnica",
+      "description": "Arnica puts your software supply chain security on autopilot. Arnica provides SBOM as part of its free (forever) offering in alignment with the CycloneDX standard.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://www.arnica.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Technolinator",
+      "publisher": "MediaMarktSaturn Technology",
+      "description": "GitHub app for SBOM creation, vulnerability analysis and inventory taking using cdxgen, grype and Dependency-Track.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "GITHUB_APP"
+      ],
+      "website_url": "https://github.com/MediaMarktSaturn/technolinator",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "FACT",
+      "publisher": "aDolus Technology Inc.",
+      "description": "The aDolus FACT platform is the first advanced aggregation, analytics, and correlation engine that provides continuous cybersecurity risk intelligence to secure the software supply chain. FACT generates NTIA-compliant SBOMs including CycloneDX.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://adolus.com",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Parlay",
+      "publisher": "Snyk",
+      "description": "A tool for enriching CycloneDX SBOMs with additional data such as vulnerability information, licences, external links, the maintainer, etc.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "TRANSFORM"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/snyk/parlay",
+      "website_url": "https://github.com/snyk/parlay",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Beniva Software Bill of Materials (SBOM)",
+      "publisher": "Beniva",
+      "description": "Beniva SBOM allows you to consume CycloneDX SBOM and Vulnerability Exploitability eXchange (VEX) within the ServiceNow platform which increases visibility of vulnerabilities and reduces time to remediate.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://store.servicenow.com/sn_appstore_store.do#!/store/application/1f62663a1ba19dd06921a821604bcb98",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "bombon",
+      "publisher": "nikstur",
+      "description": "Automagically build CycloneDX Software Bills of Materials (SBOMs) for Nix packages",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/nikstur/bombon",
+      "website_url": "https://github.com/nikstur/bombon",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Continuous Clearing",
+      "publisher": "Siemens",
+      "description": "The Continuous Clearing Tool scans and collects the 3rd party OSS components used in a NPM/NuGet/Debian/Maven project along with CycloneDX SBOMs and uploads it to SW360 and Fossology by accepting respective project ID for license clearing.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/siemens/continuous-clearing",
+      "website_url": "https://github.com/siemens/continuous-clearing",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CaPyCli - Clearing Automation for SW360",
+      "publisher": "Siemens",
+      "description": "Python CLI tool for generating, comparing, and merging SBOMs for several programming language ecosystems, as well as mapping, importing, and exporting them against a SW360 component database.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/sw360/capycli",
+      "website_url": "https://github.com/sw360/capycli",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "cyclonedx-editor-validator",
+      "publisher": "Festo SE & Co. KG",
+      "description": "Tool for creating, modifying and validating CycloneDX SBOMs.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [],
+      "repository_url": "https://github.com/Festo-se/cyclonedx-editor-validator",
+      "website_url": "https://github.com/Festo-se/cyclonedx-editor-validator",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "vsm-sbom-booster",
+      "publisher": "LeanIX",
+      "description": "A central CycloneDX SBOM generation tool that can accelerate your VSM onboarding",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/leanix/vsm-sbom-booster",
+      "website_url": "https://github.com/leanix/vsm-sbom-booster",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "asdf-cyclonedx",
+      "publisher": "Xeed.IO, LLC",
+      "description": "cyclonedx plugin for the asdf version manager.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/xeedio/asdf-cyclonedx",
+      "website_url": "https://github.com/xeedio/asdf-cyclonedx",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "cdx-central",
+      "publisher": "nscuro",
+      "description": "CLI utility to download public CycloneDX SBOMs from Maven Central",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "DISTRIBUTE"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/nscuro/cdx-central",
+      "website_url": "https://github.com/nscuro/cdx-central",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "cdx-vs-cdx",
+      "publisher": "marcosanchotene",
+      "description": "GUI tool to compare two SBOMs in CycloneDX JSON format.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/marcosanchotene/cdx-vs-cdx",
+      "website_url": "https://github.com/marcosanchotene/cdx-vs-cdx",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "cyclonedx-npm-pipe",
+      "publisher": "ShiftLeftCyber",
+      "description": "A Bitbucket Pipe which generates a CycloneDX compliant sBOM for a node/npm project",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/shiftleftcyber/cyclonedx-npm-pipe",
+      "website_url": "https://shiftleftcyber.io",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "macaron",
+      "publisher": "Oracle",
+      "description": "A supply chain security analysis tool and policy engine that checks conformance to",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/oracle/macaron",
+      "website_url": "https://oracle.github.io/macaron/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "kbom - Kubernetes Bill of Materials powered by KSOC",
+      "publisher": "KSOC",
+      "description": "KSOC's open source CLI tool generates a Kubernetes Bill of Materials; basically an SBOM, but for a K8s cluster. Details of the cluster include size, capacity, cloud info, control plane, nodes, OS and more. KBOM supports CycloneDX as a output format.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/ksoclabs/kbom",
+      "website_url": "https://github.com/ksoclabs/kbom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM Scorecard",
+      "publisher": "eBay",
+      "description": "A tool that aims to quantify what a well-generated SBOM looks like, generating a score based on specification compliance of the SBOM, generation metadata, and direct dependencies. Support CycloneDX, SPDX, and Syft.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/eBay/sbom-scorecard",
+      "website_url": "https://github.com/eBay/sbom-scorecard",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM Observer",
+      "publisher": "Bytesafe",
+      "description": "SBOM Observer provides a comprehensive SBOM workflow to help you manage your software supply chain. Leverage the powerful combination of the Policy Engine and Operational Model to guarantee the security and compliance of your software.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION",
+        "AUTHOR",
+        "DISTRIBUTE"
+      ],
+      "packaging": [],
+      "website_url": "https://sbom.observer/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM Assembler",
+      "publisher": "Interlynk.io",
+      "description": "sbomasm is a command line utility tool to assemble product SBOM from component SBOMs for easier management and distribution.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "TRANSFORM",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/interlynk-io/sbomasm",
+      "website_url": "https://www.interlynk.io/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Neo4Cyclone",
+      "publisher": "Javier Dominguez",
+      "description": "Neo4Cyclone is a tool that allows you to visualise your SBOMs using Neo4J.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/javixeneize/neo4cyclone",
+      "website_url": "https://github.com/javixeneize/neo4cyclone",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOMcenter",
+      "publisher": "Codenotary Inc",
+      "description": "SBOMcenter.io is a free service to get insights into the ingredients of your software for free and without any software.",
+      "availability": [],
+      "functions": [
+        "DISTRIBUTE",
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://sbomcenter.io",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM.sh",
+      "publisher": "Codenotary Inc",
+      "description": "SBOM.sh is a free service to store, visualize and globally share CycloneDX SBOM files by simply using HTTP requests or curl.",
+      "availability": [],
+      "functions": [
+        "DISTRIBUTE",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://sbom.sh",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Vulnerabilities.io",
+      "publisher": "Vulnerabilities Input Output Limited",
+      "description": "Generates CycloneDX Software Bill of Materials (SBOM) and visualisations for an entire organizations codebase through integrations with source control systems. Enables organizations to manage overall supply chain risk.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "DISTRIBUTE",
+        "PACKAGE_MANAGER_INTEGRATION",
+        "ANALYSIS",
+        "AUTHOR"
+      ],
+      "packaging": [
+        "GITHUB_APP"
+      ],
+      "website_url": "https://vulnerabilities.io",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Athena",
+      "publisher": "Medical Aegis Inc",
+      "description": "Athena is a SaaS solution for medical device makers that overlays the product development lifecycle to address risks before devices go to market.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://medicalaegis.com",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Semgrep",
+      "publisher": "Semgrep Inc",
+      "description": "Semgrep is an application security platform where developers can scan for vulnerabilities in code (SAST), in OSS dependencies (SCA), and secrets. Semgrep creates CycloneDX SBOMs that enrich vulnerabilities with reachability analysis.",
+      "availability": [
+        "OPEN_SOURCE",
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://semgrep.dev",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "sbom-swissarmy-bitbucket-pipe",
+      "publisher": "ShiftLeftCyber",
+      "description": "A Bitbucket Pipe containing a collection of open source tools to perform additionl analysis on a CycloneDX or SPDX sBOM.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION",
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/shiftleftcyber/sbom-utilities-pipe",
+      "website_url": "https://shiftleftcyber.io",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "cyclonedx-merge",
+      "publisher": "fnxpt",
+      "description": "Tool to merge cyclonedx files (json/xml)",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "TRANSFORM"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/fnxpt/cyclonedx-merge",
+      "website_url": "https://github.com/fnxpt/cyclonedx-merge",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "cyclonedx-enrich",
+      "publisher": "fnxpt",
+      "description": "Enrich cyclonedx files with a pattern",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "TRANSFORM"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/fnxpt/cyclonedx-enrich",
+      "website_url": "https://github.com/fnxpt/cyclonedx-enrich",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "sbom-rs",
+      "publisher": "Paul Sastrasinh",
+      "description": "A group of Rust projects for interacting with and producing software bill of materials (SBOMs).",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "repository_url": "https://github.com/psastras/sbom-rs",
+      "website_url": "https://github.com/psastras/sbom-rs",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "MLBOMdoc",
+      "publisher": "Anthony Harrison",
+      "description": "A command line tool which produces a human-readable representation of a CycloneDX ML Bill of Materials (MLBOM). Output formats include PDF and Markdown.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/anthonyharrison/mlbomdoc",
+      "website_url": "https://pypi.org/project/mlbomdoc/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOMTrend",
+      "publisher": "Anthony Harrison",
+      "description": "A command line tool which analyses a set of SBOMs to identify license and version changes in components.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/anthonyharrison/sbomtrend",
+      "website_url": "https://pypi.org/project/sbomtrend/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Oligo Runtime SBOM",
+      "publisher": "Oligo",
+      "description": "Oligo Security delivers instant insights into actively executed libraries, assessing open source risks and confirming exploitability. It enables CycloneDX SBOM creation and auto-generates VEX.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://www.oligo.security/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "bogrod",
+      "publisher": "productaize",
+      "description": "A command line tool to manage SBOM and VEX like source code and to distribute SBOMs to notaries.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "DISTRIBUTE"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/productaize/bogrod",
+      "website_url": "https://pypi.org/project/bogrod/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SUM Platform",
+      "publisher": "Security Pattern",
+      "description": "SBOM management and vulnerability monitoring platform for IoT and embedded systems. Show compliance to regulations and standards and manage risk across the entire product lifecycle.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://www.securitypattern.com/sumplatform",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SBOM Vendor Management",
+      "publisher": "SettleTop, Inc.",
+      "description": "Manage, assess, store and monitor all your vendor’s SBOMs in one secure, centralized dashboard to improve supply chain security.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://www.settletop.com/sbom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Rollup Plugin SBOM",
+      "publisher": "Jan Biasi",
+      "description": "Creates CycloneDX SBOMs for frontend Javascript applications that have  been bundled with rollup or vite.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/janbiasi/rollup-plugin-sbom",
+      "website_url": "https://github.com/janbiasi/rollup-plugin-sbom",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Product Security Hub (PSH)",
+      "publisher": "Product Security Hub, LLC",
+      "description": "Product Security Hub (PSH) is a cloud-based tool that provides capabilities to import, export, view, create, edit, and transform CycloneDX SBOMs and human-readable SBOMs, as well as view, add, and edit vulnerabilities as VEX data within CycloneDX SBO",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "TRANSFORM",
+        "AUTHOR"
+      ],
+      "packaging": [],
+      "website_url": "https://www.ProductSecurityHub.com/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Surfactant",
+      "publisher": "LLNL",
+      "description": "A modular framework for extracting file information and relationships for filesystems, with an SBOM as the primary output. Also supports limited SBOM merging, editing, and conversion between formats. Several of the supported file types include PE (bo",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "TRANSFORM"
+      ],
+      "packaging": [
+        "LIBRARY"
+      ],
+      "repository_url": "https://github.com/LLNL/Surfactant",
+      "website_url": "https://github.com/LLNL/Surfactant",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Chainloop",
+      "publisher": "Chainloop",
+      "description": "Chainloop is an Open Source evidence store for your Software Supply Chain attestations, SBOMs, VEX, QA reports, and more.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "SIGNING/NOTARY",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/chainloop-dev/chainloop",
+      "website_url": "https://github.com/chainloop-dev/chainloop",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Threatrix",
+      "publisher": "Threatrix",
+      "description": "Threatrix CodeCertify platform provides a solution for producing a comprehensive and accurate, singular, CycloneDX bill of materials from multiple sources. Projects may be created with a combination of CycloneDX, SPDX, compressed source, COTS distrib",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "TRANSFORM",
+        "AUTHOR",
+        "PACKAGE_MANAGER_INTEGRATION",
+        "DISTRIBUTE"
+      ],
+      "packaging": [
+        "GITHUB_APP",
+        "GITHUB_ACTION"
+      ],
+      "website_url": "https://threatrix.io",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "cyclonedx_deps_to_mermaid.xsl",
+      "publisher": "Jan Kowalleck",
+      "description": "Extensible Stylesheet Language Transformations (XSLT) to translate CycloneDX dependency graph to mermaid chart.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "TRANSFORM"
+      ],
+      "packaging": [],
+      "repository_url": "https://gist.github.com/jkowalleck/a0f874ee0a8af9a56a0e887631fc53d1",
+      "website_url": "https://gist.github.com/jkowalleck/a0f874ee0a8af9a56a0e887631fc53d1",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "cdx-enrich",
+      "publisher": "Michael Tsfoni",
+      "description": "Enriches a CycloneDX Software Bills of Material (SBOM) with predefined data.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/mtsfoni/cdx-enrich",
+      "website_url": "https://github.com/mtsfoni/cdx-enrich",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Meta Package Manager",
+      "publisher": "Kevin Deldycke",
+      "description": "Export a SBOM of all packages installed on a Linux, macOS or Windows system.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/kdeldycke/meta-package-manager",
+      "website_url": "https://github.com/kdeldycke/meta-package-manager",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "BOMSkope",
+      "publisher": "Netskope",
+      "description": "BOMSkope is a web-based Software Bill of Materials manager designed to streamline the tracking of vendor components. It enables the identification and monitoring of potential vulnerabilities in vendor software, enhancing visibility into your overall ",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/netskopeoss/BOMSkope",
+      "website_url": "https://github.com/netskopeoss/BOMSkope",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CVE Scan",
+      "publisher": "The Embedded Kit",
+      "description": "CVE Scan helps detect and mitigate security vulnerabilities in embedded systems. With accurate SBOM generation, cross-referencing with public databases, CI integration, filtering, annotations, and a web interface, it streamlines security maintenance.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://theembeddedkit.io/cve-scan-linux-vulnerability-scanner/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "nim_lk",
+      "publisher": "Emery Hemingway",
+      "description": "Create and update SBOMs for the Nim programing language. Includes a translation module for the Nimble package manager as well as a Nix expression for building packages from SBOMs.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "AUTHOR",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://git.sr.ht/~ehmry/nim_lk",
+      "website_url": "https://git.sr.ht/~ehmry/nim_lk",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Bitbucket Pipe for SBOM Generation",
+      "publisher": "ShiftLeftCyber",
+      "description": "Integrate this Bitbucket Pipe into your CI/CD pipeline to automatically generate a Software Bill of Materials (SBOM) for any project.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/shiftleftcyber/syft-bitbucket-pipe",
+      "website_url": "https://shiftleftcyber.io",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Sonar Cryptography Plugin",
+      "publisher": "IBM",
+      "description": "A SonarQube Plugin that detects cryptographic assets in source code and generates CBOM.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/IBM/sonar-cryptography",
+      "website_url": "https://github.com/IBM/sonar-cryptography",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CBOM Viewer",
+      "publisher": "IBM",
+      "description": "A Web Service to visualize and explore the use of cryptography in software with Cryptography Bills of Materials (CBOM).",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://www.zurich.ibm.com/cbom/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CBOMkit",
+      "publisher": "IBM",
+      "description": "CBOMkit is a toolset for generating, viewing, checking and storing Cryptography Bills of Materials (CBOM).",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [],
+      "repository_url": "https://github.com/IBM/cbomkit",
+      "website_url": "https://github.com/IBM/cbomkit",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CBOMkit-theia",
+      "publisher": "IBM",
+      "description": "A tool that detects cryptographic assets in container images as well as directories and generates Cryptography Bills of Materials (CBOM).",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [],
+      "repository_url": "https://github.com/IBM/cbomkit-theia",
+      "website_url": "https://github.com/IBM/cbomkit-theia",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Cyberwatch",
+      "publisher": "Cyberwatch",
+      "description": "Cyberwatch Vulnerability Manager is a comprehensive vulnerability management solution. It allows you to discover your assets, scan and prioritize vulnerabilities, make the right decisions and fix vulnerabilities.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://cyberwatch.fr/en/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "sbomify",
+      "publisher": "sbomify",
+      "description": "sbomify is a comprehensive SBOM management platform that enables secure sharing and analysis of Software Bill of Materials. Seamlessly integrates with CI/CD pipelines and analysis tools for enhanced software supply chain visibility.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION",
+        "DISTRIBUTE",
+        "TRANSFORM"
+      ],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "website_url": "https://sbomify.com",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Sunshine",
+      "publisher": "CycloneDX",
+      "description": "Sunshine is an open-source SBOM visualization tool.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/CycloneDX/Sunshine/",
+      "website_url": "https://cyclonedx.github.io/Sunshine/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "SOOS",
+      "publisher": "SOOS",
+      "description": "Automate your software inventory. SOOS creates, ingests, and manages your Software Bill of Materials and uses patented SCA and the largest open-source SBOM database to find hidden vulnerabilities, license issues, and dependencies sooner.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION",
+        "DISTRIBUTE",
+        "TRANSFORM",
+        "AUTHOR"
+      ],
+      "packaging": [
+        "GITHUB_ACTION",
+        "GITHUB_APP"
+      ],
+      "website_url": "https://soos.io",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "Noma",
+      "publisher": "Noma Security",
+      "description": "Noma provides an AI Application Security Platform for the entire AI lifecycle, focusing on automatic AI asset discovery and ML-BOM, AI supply chain risk management, and AI runtime protection, enabling trustworthy and secure AI adoption.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [],
+      "website_url": "https://noma.security",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "RunSafe C/C++ Build-time SBOM Generator",
+      "publisher": "RunSafe Security",
+      "description": "RunSafe Security generates a C/C++ SBOM at build-time without the need for a package manager. RunSafe works flexibly across build environments, reports on all library dependencies, and is enriched with information about the final target.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "website_url": "https://runsafesecurity.com/c-c-plus-plus-sbom/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "ts-scan",
+      "publisher": "TrustSource",
+      "description": "Multi ecosystem SCA cli tool supporting SBOM generation, decoration and analysis for licenses, vulnerabilities, known code snippets and malware. Can convert SBOMs between SPDX, CycloneDX and ts formats. All local. But it may also upload results to ap",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "TRANSFORM",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "website_url": "https://trustsource.github.io/ts-scan/",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "sbom-validator",
+      "publisher": "ShiftLeftCyber",
+      "description": "A lightweight Go library for validating Software Bill of Materials (SBOM) against industry-standard specifications",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS"
+      ],
+      "packaging": [
+        "LIBRARY"
+      ],
+      "repository_url": "https://github.com/shiftleftcyber/sbom-validator",
+      "website_url": "https://shiftleftcyber.io",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "CycloneDX Perl Library",
+      "publisher": "Giuseppe Di Terlizzi",
+      "description": "Perl library for generating CycloneDX SBOMs",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [],
+      "packaging": [
+        "LIBRARY"
+      ],
+      "repository_url": "https://github.com/giterlizzi/perl-SBOM-CycloneDX",
+      "website_url": "https://metacpan.org/pod/SBOM::CycloneDX",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "ReARM",
+      "publisher": "Reliza",
+      "description": "ReARM is a system to store, organize and manage",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "DISTRIBUTE",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/relizaio/rearm",
+      "website_url": "https://rearmhq.com",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "BOMnipotent",
+      "publisher": "Weichwerke Heidrich Software",
+      "description": "A server application for managing and distributing SBOMs and CSAF documents. Integrates with tools for vulnerability scanning. Allows fine-grained access-control and classification with the TLP protocol. Free to use for non-commercial entities.",
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "DISTRIBUTE"
+      ],
+      "packaging": [],
+      "repository_url": "https://github.com/Weichwerke-Heidrich-Software/bomnipotent_doc",
+      "website_url": "https://www.bomnipotent.de",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    },
+    {
+      "name": "AI SBOM (AIBOM, ML-BOM) Generator",
+      "publisher": "Aetheris AI",
+      "description": "Generate AI SBOM (AIBOM, AI/ML-BOM) in CycloneDX format for models on Hugging Face.",
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "AUTHOR"
+      ],
+      "packaging": [],
+      "repository_url": "https://huggingface.co/spaces/aetheris-ai/aibom-generator",
+      "website_url": "https://huggingface.co/spaces/aetheris-ai/aibom-generator",
+      "capabilities": [],
+      "analysis": [],
+      "transform": [],
+      "library": [],
+      "platform": [],
+      "lifecycle": [],
+      "supportedStandards": [],
+      "cycloneDxVersion": [],
+      "supportedLanguages": []
+    }
+  ]
+}
