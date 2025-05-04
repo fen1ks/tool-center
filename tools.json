@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2025-05-04T22:04:23Z",
+  "last_updated": "2025-05-04T22:31:06Z",
   "tools": [
     {
       "name": "CycloneDX Core for Java",
@@ -1067,7 +1067,7 @@
       "publisher": "Sonatype",
       "description": "Software Composition Analysis (SCA) platform that can consume, analyze,",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -1112,7 +1112,7 @@
       "publisher": "MedSec",
       "description": "Consumes SBOM’s for helping hospitals manage medical device assets",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -1134,7 +1134,7 @@
       "publisher": "Reliza",
       "description": "Publishes Reliza Hub metadata as SBOM for use in other tools or ingests",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [],
       "packaging": [],
@@ -1430,7 +1430,7 @@
       "publisher": "Fortress Information Security",
       "description": "Creates SBOM from binary or archive, consumes externally provided SBOM,",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -1452,7 +1452,7 @@
       "publisher": "Fortress Information Security",
       "description": "Comprehensive Cyber Supply Chain Risk Management data library that",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "DISTRIBUTE"
@@ -1474,7 +1474,7 @@
       "publisher": "Reliable Energy Analytics LLC",
       "description": "SAG-PM processes CycloneDX SBOM’s as part of a seven step software",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -1496,7 +1496,7 @@
       "publisher": "Cybeats Technologies Inc.",
       "description": "Manage SBOMs at scale and proactively discover & reduce risk across the entire",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "AUTHOR",
@@ -1522,7 +1522,7 @@
       "publisher": "TrustSource",
       "description": "TrustSource is a SaaS platform for implementing and maintaining open",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -1544,7 +1544,7 @@
       "publisher": "JDisc",
       "description": "Network discovery and IT inventory that can discover CycloneDX SBOMs",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -1566,7 +1566,7 @@
       "publisher": "Micro Focus",
       "description": "PulseUno enables development teams to continually build and inspect",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "PACKAGE_MANAGER_INTEGRATION"
@@ -1657,7 +1657,7 @@
       "publisher": "GrammaTech",
       "description": "Software Composition Analysis (SCA) platform that leverages binary",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -1679,7 +1679,7 @@
       "publisher": "Medcrypt",
       "description": "Automatically extract or manually upload your Software Bill of Materials",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -1701,7 +1701,7 @@
       "publisher": "Contrast Security",
       "description": "Automatically generates component inventory from runtime analysis (IAST",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -1890,7 +1890,7 @@
       "publisher": "Cybellum Technologies LTD.",
       "description": "Analyzes binary artifacts to generate SBoM including context based",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -1981,7 +1981,7 @@
       "publisher": "NowSecure",
       "description": "NowSecure automates security and privacy testing of mobile applications",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -2003,7 +2003,7 @@
       "publisher": "Ion Channel",
       "description": "Ion Channel is a software supply chain assurance platform that transforms",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -2117,7 +2117,7 @@
       "publisher": "Checkmarx",
       "description": "Checkmarx SCA is a Software Composition Analysis (SCA) platform that",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -2187,7 +2187,7 @@
       "publisher": "RKVST",
       "description": "A free SaaS repo to find and fetch public or private CycloneDX v1.4",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "DISTRIBUTE"
@@ -2233,7 +2233,7 @@
       "publisher": "Meterian",
       "description": "Software composition analysis for codebases providing precise and comprehensive",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "PACKAGE_MANAGER_INTEGRATION"
@@ -2366,7 +2366,7 @@
       "publisher": "JFrog",
       "description": "JFrog Xray is a software composition analysis (SCA) solution that proactively",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [],
       "packaging": [],
@@ -2409,7 +2409,7 @@
       "publisher": "NetRise",
       "description": "NetRise Turbine is a firmware analysis platform that creates SBOMs",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [],
       "packaging": [],
@@ -2496,7 +2496,7 @@
       "publisher": "Keysight",
       "description": "Keysight Automated Firmware Analysis, part of the Keysight IoT Security Assessment product, delivers highly accurate SBOMs and identifies CVEs, misconfigurations, hardcoded credentials, weak cryptography, and potential zero-day vulnerabilities.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [],
       "packaging": [],
@@ -2539,7 +2539,7 @@
       "publisher": "Sonatype",
       "description": "Sonatype Lift is a cloud-native, collaborative, code analysis platform",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "PACKAGE_MANAGER_INTEGRATION"
@@ -2610,7 +2610,7 @@
       "publisher": "Apiiro",
       "description": "Apiiro enables security & development teams to proactively remediate",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -2633,7 +2633,7 @@
       "publisher": "GitLab",
       "description": "Dependency Scanning analyzer that uses the GitLab Advisory Database",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -2794,7 +2794,7 @@
       "publisher": "JupiterOne",
       "description": "Easily identify, map, analyze, and secure cyber assets and attack surface.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -2816,7 +2816,7 @@
       "publisher": "Veracode",
       "description": "API to output SBOM in CycloneDX (JSON) format based on Veracode's software",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -2838,7 +2838,7 @@
       "publisher": "Tidelift",
       "description": "Tidelift is a managed open source subscription, offering commercial",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [],
       "packaging": [],
@@ -2858,7 +2858,7 @@
       "publisher": "Bytesafe",
       "description": "A Dependency Firewall that protects organizations from malicious dependencies.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -2903,7 +2903,7 @@
       "publisher": "CyberTest",
       "description": "Flawnter Static Code Analyzer helps improve the security and quality",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -2926,7 +2926,7 @@
       "description": "SonarQube allows developers and development teams to write clean code",
       "availability": [
         "OPEN_SOURCE",
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -2948,7 +2948,7 @@
       "publisher": "Synopsys",
       "description": "Black Duck software composition analysis (SCA) helps teams manage the",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -3015,7 +3015,7 @@
       "publisher": "Rezilion",
       "description": "Continuous inventory of all software components down to the file/class level from development to production across entire tech stack. Dynamically track associated supply chain risks, dependencies, and behaviors and validate exploitability in runtime.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -3039,7 +3039,7 @@
       "publisher": "BlackBerry",
       "description": "Software composition analysis (SCA) and security testing solution that detects and list open-source software and software licenses within embedded systems and associated cybersecurity vulnerabilities and exposures",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -3061,7 +3061,7 @@
       "publisher": "Micro Focus",
       "description": "Open source plugin for Fortify Software Security Center (SSC) that parses CycloneDX BOMs and integrates vulnerability data within the SSC portal",
       "availability": [
-        "SUBSCRIPTION",
+        "COMMERCIAL_LICENSE",
         "OPEN_SOURCE"
       ],
       "functions": [],
@@ -3309,7 +3309,7 @@
       "publisher": "Mend (Whitesource)",
       "description": "Mend allows organizations to gain full visibility and control over their open source usage. Mend SCA exports direct and transitive dependencies in CycloneDX format.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [],
       "packaging": [],
@@ -3329,7 +3329,7 @@
       "publisher": "Palo Alto Networks",
       "description": "Prisma® Cloud secures infrastructure, applications, data and entitlements across the world’s largest clouds, all from a single unified solution.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [],
       "packaging": [],
@@ -3349,7 +3349,7 @@
       "publisher": "CAST",
       "description": "CAST Highlight automatically analyzes source code of hundreds of applications in a week for Software Composition Analysis (Open Source risks), Cloud Readiness, Resiliency, and Technical Debt.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "PACKAGE_MANAGER_INTEGRATION",
@@ -3374,7 +3374,7 @@
       "publisher": "CAST",
       "description": "CAST SBOM Manager is a free software that enables users to automatically create, customize, and maintain Software Bill of Materials (SBOMs) with the ultimate level of control and flexibility.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -3399,7 +3399,7 @@
       "publisher": "Kondukto",
       "description": "Kondukto is an Application Security Orchestration and Correlation tool to manage vulnerability scanning tools and remediation workflows to increase AppSec Team efficiency. It can consume and analyzes CycloneDX SBOMs via CI/CD integration or manual.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [],
       "packaging": [],
@@ -3419,7 +3419,7 @@
       "publisher": "Enso Security",
       "description": "Enso is an Application Security Posture Management (ASPM) platform that automates the identification of software assets as well as the tracking and scheduling of all application security tools and processes.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [],
       "packaging": [],
@@ -3460,7 +3460,7 @@
       "publisher": "SecureStack",
       "description": "SecureStack analyzes your application and finds all source code, cloud stack and third-party services and builds a CycloneDX SBOM every time you deploy",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "PACKAGE_MANAGER_INTEGRATION"
@@ -3482,7 +3482,7 @@
       "publisher": "Revenera",
       "description": "SBOM Insights is a SaaS solution that helps organizations manage their Software Bill of Materials (SBOM)",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [],
       "packaging": [],
@@ -3525,7 +3525,7 @@
       "publisher": "ReversingLabs",
       "description": "Software supply chain security protection for CI/CD workflows, containers, and release packages that enables DevSecOps teams to release software with confidence.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "PACKAGE_MANAGER_INTEGRATION"
@@ -3547,7 +3547,7 @@
       "publisher": "Deepbits",
       "description": "A free online toolset for software supply chain analysis, including AI-powered SBOM/SaaSBOM building and risk analysis services for COTS software, open-source software artifacts, public code repositories, and public docker images.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -3569,7 +3569,7 @@
       "publisher": "Micro Focus",
       "description": "AppSec platform, powered by expert research teams and machine learning/AI, aimed at protecting the integrity of your software supply chain by producing and consuming CycloneDX SBOMs for a wide range of languages and package managers.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -3892,7 +3892,7 @@
       "publisher": "ONEKEY",
       "description": "Automatic firmware analysis platform exracting, enumerating and checking binary images to create SBOM & vulnerability reports.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -3937,7 +3937,7 @@
       "publisher": "StackAware",
       "description": "StackAware helps organizations communicate about supply chain cybersecurity risk. A SaaS platform, it allows for the management and analysis of SBOMs as well as structured communications about the exploitability of vulnerabilities identified in them.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -3960,7 +3960,7 @@
       "publisher": "Manifest",
       "description": "Manifest provides an end-to-end SBOM management tool that lets organizations easily (and automatically) generate, aggregate, enrich, analyze, and securely share SBOMs.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -3984,7 +3984,7 @@
       "publisher": "Scribe Security",
       "description": "Scribe helps you build trust in the software you produce or use, across teams and organizations. You can generate, manage and share SBOMs, validate integrity, and track vulnerabilities of your containers, source repositories, dependencies, and pipeli",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "PACKAGE_MANAGER_INTEGRATION",
@@ -4008,7 +4008,7 @@
       "publisher": "OpenText",
       "description": "Debricked allows you to manage your open source in an easy, smart and efficient manner. Automatically find, fix and prevent vulnerabilities, avoid non compliant licenses and choose better open source from the start - all in one tool.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -4053,7 +4053,7 @@
       "publisher": "Endor Labs",
       "description": "Endor Labs helps organizations maximize software reuse by enabling security and development teams to select, secure, and maintain OSS at scale. Endor Labs creates CycloneDX SBOMs and automatically generates VEX for software prodcuers.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "PACKAGE_MANAGER_INTEGRATION"
@@ -4075,7 +4075,7 @@
       "publisher": "LeanIX",
       "description": "LeanIX Value Stream Management (VSM) can consume CycloneDX SBOMs via REST APIs, making data from hundreds of BOMs available in a search- & filterable catalog in relation to Team ownership and Product architecture",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "PACKAGE_MANAGER_INTEGRATION"
@@ -4097,7 +4097,7 @@
       "publisher": "RapidFort",
       "description": "RapidFort container optimization platform finds and eliminates unused container components and hardens containers so you spend less time on vulnerability remediation. RapidFort supports CycloneDX BOMs and VEX",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "PACKAGE_MANAGER_INTEGRATION"
@@ -4119,7 +4119,7 @@
       "publisher": "FOSSA",
       "description": "Software Composition Analysis (SCA) platform that can ingest, analyze, and generate CycloneDX SBOMs",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -4211,7 +4211,7 @@
       "publisher": "Interlynk.io",
       "description": "Quickly evaluate SBOM for quality, compliance and errors",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -4233,7 +4233,7 @@
       "publisher": "Amazon Inspector",
       "description": "Amazon Inspector SBOM Generator (inspector-sbomgen) produces SBOMs for various artifacts using multiple collectors, providing an inventory of packages and metadata for vulnerability scanning using Amazon Inspector ScanSBOM API (AWS account required).",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -4256,7 +4256,7 @@
       "publisher": "Xygeni",
       "description": "Xygeni is a software supply chain security solution that provides visibility, security and integrity in DevOps environments, reducing the risk of breaches and detecting potential attacks, ensuring security in your software releases.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -4372,7 +4372,7 @@
       "publisher": "Vulert.com",
       "description": "Vulert's Abom scanner can monitor and alert you in real-time for open-source vulnerabilities in your software, without requiring access to your code or installation. It uses only an SBOM or manifest file, such as a package-lock.json file. No signup i",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -4395,7 +4395,7 @@
       "publisher": "Timesys",
       "description": "Vulnerability monitoring and remediation tool that combines a curated CVE database, continuous security feeds, powerful filtering, and easy triage tools. Supports Yocto, Buildroot, PetaLinux, Wind River Linux, PTXdist, OpenWrt, and Timesys Factory.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -4418,7 +4418,7 @@
       "publisher": "Arnica",
       "description": "Arnica puts your software supply chain security on autopilot. Arnica provides SBOM as part of its free (forever) offering in alignment with the CycloneDX standard.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -4463,7 +4463,7 @@
       "publisher": "aDolus Technology Inc.",
       "description": "The aDolus FACT platform is the first advanced aggregation, analytics, and correlation engine that provides continuous cybersecurity risk intelligence to secure the software supply chain. FACT generates NTIA-compliant SBOMs including CycloneDX.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -4508,7 +4508,7 @@
       "publisher": "Beniva",
       "description": "Beniva SBOM allows you to consume CycloneDX SBOM and Vulnerability Exploitability eXchange (VEX) within the ServiceNow platform which increases visibility of vulnerabilities and reduces time to remediate.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -4805,7 +4805,7 @@
       "publisher": "Bytesafe",
       "description": "SBOM Observer provides a comprehensive SBOM workflow to help you manage your software supply chain. Leverage the powerful combination of the Policy Engine and Operational Model to guarantee the security and compliance of your software.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -4919,7 +4919,7 @@
       "publisher": "Vulnerabilities Input Output Limited",
       "description": "Generates CycloneDX Software Bill of Materials (SBOM) and visualisations for an entire organizations codebase through integrations with source control systems. Enables organizations to manage overall supply chain risk.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "DISTRIBUTE",
@@ -4946,7 +4946,7 @@
       "publisher": "Medical Aegis Inc",
       "description": "Athena is a SaaS solution for medical device makers that overlays the product development lifecycle to address risks before devices go to market.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -4969,7 +4969,7 @@
       "description": "Semgrep is an application security platform where developers can scan for vulnerabilities in code (SAST), in OSS dependencies (SCA), and secrets. Semgrep creates CycloneDX SBOMs that enrich vulnerabilities with reachability analysis.",
       "availability": [
         "OPEN_SOURCE",
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -5133,7 +5133,7 @@
       "publisher": "Oligo",
       "description": "Oligo Security delivers instant insights into actively executed libraries, assessing open source risks and confirming exploitability. It enables CycloneDX SBOM creation and auto-generates VEX.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -5179,7 +5179,7 @@
       "publisher": "Security Pattern",
       "description": "SBOM management and vulnerability monitoring platform for IoT and embedded systems. Show compliance to regulations and standards and manage risk across the entire product lifecycle.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -5202,7 +5202,7 @@
       "publisher": "SettleTop, Inc.",
       "description": "Manage, assess, store and monitor all your vendor’s SBOMs in one secure, centralized dashboard to improve supply chain security.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -5247,7 +5247,7 @@
       "publisher": "Product Security Hub, LLC",
       "description": "Product Security Hub (PSH) is a cloud-based tool that provides capabilities to import, export, view, create, edit, and transform CycloneDX SBOMs and human-readable SBOMs, as well as view, add, and edit vulnerabilities as VEX data within CycloneDX SBO",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -5320,7 +5320,7 @@
       "publisher": "Threatrix",
       "description": "Threatrix CodeCertify platform provides a solution for producing a comprehensive and accurate, singular, CycloneDX bill of materials from multiple sources. Projects may be created with a combination of CycloneDX, SPDX, compressed source, COTS distrib",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -5441,7 +5441,7 @@
       "publisher": "The Embedded Kit",
       "description": "CVE Scan helps detect and mitigate security vulnerabilities in embedded systems. With accurate SBOM generation, cross-referencing with public databases, CI integration, filtering, annotations, and a web interface, it streamlines security maintenance.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -5533,7 +5533,7 @@
       "publisher": "IBM",
       "description": "A Web Service to visualize and explore the use of cryptography in software with Cryptography Bills of Materials (CBOM).",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -5597,7 +5597,7 @@
       "publisher": "Cyberwatch",
       "description": "Cyberwatch Vulnerability Manager is a comprehensive vulnerability management solution. It allows you to discover your assets, scan and prioritize vulnerabilities, make the right decisions and fix vulnerabilities.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -5619,7 +5619,7 @@
       "publisher": "sbomify",
       "description": "sbomify is a comprehensive SBOM management platform that enables secure sharing and analysis of Software Bill of Materials. Seamlessly integrates with CI/CD pipelines and analysis tools for enhanced software supply chain visibility.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -5669,7 +5669,7 @@
       "publisher": "SOOS",
       "description": "Automate your software inventory. SOOS creates, ingests, and manages your Software Bill of Materials and uses patented SCA and the largest open-source SBOM database to find hidden vulnerabilities, license issues, and dependencies sooner.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS",
@@ -5698,7 +5698,7 @@
       "publisher": "Noma Security",
       "description": "Noma provides an AI Application Security Platform for the entire AI lifecycle, focusing on automatic AI asset discovery and ML-BOM, AI supply chain risk management, and AI runtime protection, enabling trustworthy and secure AI adoption.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "ANALYSIS"
@@ -5720,7 +5720,7 @@
       "publisher": "RunSafe Security",
       "description": "RunSafe Security generates a C/C++ SBOM at build-time without the need for a package manager. RunSafe works flexibly across build environments, reports on all library dependencies, and is enriched with information about the final target.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "PACKAGE_MANAGER_INTEGRATION"
@@ -5840,7 +5840,7 @@
       "publisher": "Weichwerke Heidrich Software",
       "description": "A server application for managing and distributing SBOMs and CSAF documents. Integrates with tools for vulnerability scanning. Allows fine-grained access-control and classification with the TLP protocol. Free to use for non-commercial entities.",
       "availability": [
-        "SUBSCRIPTION"
+        "COMMERCIAL_LICENSE"
       ],
       "functions": [
         "DISTRIBUTE"

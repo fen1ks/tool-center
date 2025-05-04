@@ -28,7 +28,7 @@ INCLUDE_EMPTY_ARRAYS = True
 # ------------------------------------------------------------------------------
 CATEGORY_MAPPINGS = {
     "opensource":        ("availability", "OPEN_SOURCE"),
-    "proprietary":       ("availability", "SUBSCRIPTION"),
+    "proprietary":       ("availability", "COMMERCIAL_LICENSE"),
     "analysis":          ("functions",     "ANALYSIS"),
     "transform":         ("functions",     "TRANSFORM"),
     "signing-notary":    ("functions",     "SIGNING/NOTARY"),
