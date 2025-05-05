@@ -248,19 +248,18 @@
               "PRE-BUILD",
               "BUILD",
               "POST-BUILD",
-              "DEPLOYMENT",
               "OPERATIONS",
               "DISCOVERY",
               "DECOMMISSION"
             ],
             "meta:enum": {
-              "design": "BOM produced early in the development lifecycle containing an inventory of components and services that are proposed or planned to be used. The inventory may need to be procured, retrieved, or resourced prior to use.",
-              "pre-build": "BOM consisting of information obtained prior to a build process and may contain source files and development artifacts and manifests. The inventory may need to be resolved and retrieved prior to use.",
-              "build": "BOM consisting of information obtained during a build process where component inventory is available for use. The precise versions of resolved components are usually available at this time as well as the provenance of where the components were retrieved from.",
-              "post-build": "BOM consisting of information obtained after a build process has completed and the resulting components(s) are available for further analysis. Built components may exist as the result of a CI/CD process, may have been installed or deployed to a system or device, and may need to be retrieved or extracted from the system or device.",
-              "operations": "BOM produced that represents inventory that is running and operational. This may include staging or production environments and will generally encompass multiple SBOMs describing the applications and operating system, along with HBOMs describing the hardware that makes up the system. Operations Bill of Materials (OBOM) can provide full-stack inventory of runtime environments, configurations, and additional dependencies.",
-              "discovery": "BOM consisting of information observed through network discovery providing point-in-time enumeration of embedded, on-premise, and cloud-native services such as server applications, connected devices, microservices, and serverless functions.",
-              "decommission": "BOM containing inventory that will be, or has been retired from operations."
+              "DESIGN": "BOM produced early in the development lifecycle containing an inventory of components and services that are proposed or planned to be used. The inventory may need to be procured, retrieved, or resourced prior to use.",
+              "PRE-BUILD": "BOM consisting of information obtained prior to a build process and may contain source files and development artifacts and manifests. The inventory may need to be resolved and retrieved prior to use.",
+              "BUILD": "BOM consisting of information obtained during a build process where component inventory is available for use. The precise versions of resolved components are usually available at this time as well as the provenance of where the components were retrieved from.",
+              "POST-BUILD": "BOM consisting of information obtained after a build process has completed and the resulting components(s) are available for further analysis. Built components may exist as the result of a CI/CD process, may have been installed or deployed to a system or device, and may need to be retrieved or extracted from the system or device.",
+              "OPERATIONS": "BOM produced that represents inventory that is running and operational. This may include staging or production environments and will generally encompass multiple SBOMs describing the applications and operating system, along with HBOMs describing the hardware that makes up the system. Operations Bill of Materials (OBOM) can provide full-stack inventory of runtime environments, configurations, and additional dependencies.",
+              "DISCOVERY": "BOM consisting of information observed through network discovery providing point-in-time enumeration of embedded, on-premise, and cloud-native services such as server applications, connected devices, microservices, and serverless functions.",
+              "DECOMMISSION": "BOM containing inventory that will be, or has been retired from operations."
             },
             "description": "Specifies the phases of the CycloneDX-defined software lifecycle that the tool supports. This helps indicate when in the software lifecycle the tool is capable of generating, consuming, or modifying CycloneDX artifacts."
           }
@@ -296,7 +295,14 @@
               "CYCLONEDX_V1.4",
               "CYCLONEDX_V1.3",
               "CYCLONEDX_V1.2"
-            ]
+            ],
+            "meta:enum": {
+              "CYCLONEDX_V1.6": "CycloneDX v1.6",
+              "CYCLONEDX_V1.5": "CycloneDX v1.5",
+              "CYCLONEDX_V1.4": "CycloneDX v1.4",
+              "CYCLONEDX_V1.3": "CycloneDX v1.3",
+              "CYCLONEDX_V1.2": "CycloneDX v1.2"
+            }
           },
           "description": "Specific versions of the CycloneDX specification that the tool supports."
         },
