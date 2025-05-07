@@ -562,7 +562,7 @@
 - name: Cybeats SBOM Studio
   publisher: Cybeats Technologies Inc.
   description: Manage SBOMs at scale and proactively discover & reduce risk across the entire
-    software supply chain, from development through deployment.
+    Software supply chain, from development through deployment.
   websiteUrl: https://cybeats.com
   categories:
   - proprietary
@@ -571,6 +571,14 @@
   - transform
   - build-integration
   - distribute
+  - github-action
+- name: Cybeats SBOM Consumer
+  publisher: Cybeats Technologies Inc.
+  description: Consume SBOMs from 3rd party vendors, connect to the asset inventory, and get transparency into risks in devices and software across the organization.
+  websiteUrl: https://cybeats.com/product/sbom-consumer
+  categories:
+  - proprietary
+  - analysis
 - name: TrustSource
   publisher: TrustSource
   description: TrustSource is a SaaS platform for implementing and maintaining open
