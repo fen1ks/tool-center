@@ -212,6 +212,7 @@
             "type": "string",
             "enum": [
               "C/C++",
+              "ERLANG_ELIXIR",
               "GO",
               "JAVA",
               "JAVASCRIPT_TYPESCRIPT",
@@ -312,6 +313,7 @@
             "type": "string",
             "enum": [
               "C/C++",
+              "ERLANG_ELIXIR",
               "GO",
               "JAVA",
               "JAVASCRIPT/TYPESCRIPT",
