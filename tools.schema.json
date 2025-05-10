@@ -107,13 +107,15 @@
               "OPEN_SOURCE",
               "FREEMIUM",
               "SUBSCRIPTION",
-              "COMMERCIAL_LICENSE"
+              "COMMERCIAL_LICENSE",
+              "OSI_APPROVED"
             ],
             "meta:enum": {
               "OPEN_SOURCE": "Freely available under an open-source license.",
               "FREEMIUM": "Core features are free to use, with optional paid features or upgrades.",
               "SUBSCRIPTION": "Access is provided through a recurring payment model, such as monthly or annually.",
-              "COMMERCIAL_LICENSE": "Requires a proprietary or paid license; not open source and typically restricts redistribution or modification."
+              "COMMERCIAL_LICENSE": "Requires a proprietary or paid license; not open source and typically restricts redistribution or modification.",
+              "OSI_APPROVED": "The tool is licensed under an OSI-approved open-source license."
             }
           },
           "description": "Indicates the availability or license model."
@@ -149,13 +151,15 @@
               "SECURITY_VULNERABILITIES",
               "POLICY_EVALUATION",
               "RESOURCE_REPORTING",
-              "LICENSE_REPORTING"
+              "LICENSE_REPORTING",
+              "OUTDATED_COMPONENTS"
             ],
             "meta:enum": {
               "SECURITY_VULNERABILITIES": "Performs security vulnerability analysis based on the contents of a BOM. For SBOMs, this typically involves identifying known vulnerabilities in software components (e.g., via CVEs). For SaaSBOMs or other service-inclusive BOMs, the analysis may expand to include service exposure, data handling practices, or configuration weaknesses.",
               "POLICY_EVALUATION": "Evaluates BOM contents against defined policies, such as allowed licenses, approved component lists, or internal security/compliance rules. Policies may differ based on BOM type (e.g., stricter rules for embedded systems vs. cloud services).",
               "RESOURCE_REPORTING": "Analyzes and reports on the resource characteristics of components or services defined in the BOM, such as CPU usage, storage, memory footprint, or cloud infrastructure details.",
-              "LICENSE_REPORTING": "Extracts and reports license data associated with BOM components to support legal compliance, attribution, and license compatibility analysis. May vary depending on whether components are libraries, containers, or services."
+              "LICENSE_REPORTING": "Extracts and reports license data associated with BOM components to support legal compliance, attribution, and license compatibility analysis. May vary depending on whether components are libraries, containers, or services.",
+              "OUTDATED_COMPONENTS": "Identifies components or services in the BOM that are outdated, deprecated, or no longer supported. This may include checking for newer versions of libraries, services, or platforms."
             }
           },
           "description": "Specifies the types of analysis the tool support.s"
@@ -190,7 +194,8 @@
               "GITHUB_APP",
               "GITLAB_CI_TEMPLATE",
               "JENKINS_PLUGIN",
-              "LIBRARY"
+              "LIBRARY",
+              "MAVEN_PLUGIN"
             ],
             "meta:enum": {
               "AZURE_PIPELINE_EXTENSION": "Extension or task used within Azure DevOps pipelines.",
@@ -201,7 +206,8 @@
               "GITHUB_APP": "GitHub-integrated application with extended API access and repository permissions.",
               "GITLAB_CI_TEMPLATE": "Reusable CI/CD configuration designed for GitLab pipelines.",
               "JENKINS_PLUGIN": "Plugin or scripted integration compatible with Jenkins pipelines.",
-              "LIBRARY": "Software component intended for integration into other tools or applications via code."
+              "LIBRARY": "Software component intended for integration into other tools or applications via code.",
+              "MAVEN_PLUGIN": "Plugin designed for use within the Maven build system."
             }
           },
           "description": "Specifies the distribution or integration format of the tool, reflecting how it is delivered, executed, or embedded within user environments and CI/CD systems."
@@ -212,7 +218,6 @@
             "type": "string",
             "enum": [
               "C/C++",
-              "ERLANG_ELIXIR",
               "GO",
               "JAVA",
               "JAVASCRIPT_TYPESCRIPT",
@@ -223,7 +228,10 @@
               "PYTHON",
               "RUBY",
               "RUST",
-              "SWIFT"
+              "SWIFT",
+              "SHELL",
+              "SCALA",
+              "ERLANG_ELIXIR"
             ],
             "description": "Languages or ecosystems in which the tool is implemented or provides libraries."
           }
@@ -274,14 +282,16 @@
               "PACKAGE_URL",
               "CPE",
               "OMNIBOR",
-              "SWID"
+              "SWID",
+              "SPDX"
             ],
             "meta:enum": {
               "CYCLONEDX": "CycloneDX – A Bill of Materials (BOM) standard and transparency expression language.",
               "PACKAGE_URL": "Package-URL (PURL) – A standard format for identifying and locating software packages across ecosystems.",
               "CPE": "Common Platform Enumeration (CPE) – A naming scheme for classifying operating systems, applications, and hardware.",
               "OMNIBOR": "OmniBOR – A standard for embedding object references to improve traceability and attribution in software artifacts.",
-              "SWID": "Software Identification (SWID) – An XML-based tag format for uniquely identifying software products and their versions."
+              "SWID": "Software Identification (SWID) – An XML-based tag format for uniquely identifying software products and their versions.",
+              "SPDX": "Software Package Data Exchange (SPDX) – A standard format for communicating software bill of materials (SBOM) information."
             }
           },
           "description": "Software supply chain standards that the tool supports."
@@ -313,7 +323,6 @@
             "type": "string",
             "enum": [
               "C/C++",
-              "ERLANG_ELIXIR",
               "GO",
               "JAVA",
               "JAVASCRIPT/TYPESCRIPT",
@@ -324,7 +333,12 @@
               "PYTHON",
               "RUBY",
               "RUST",
-              "SWIFT"
+              "SWIFT",
+              "ERLANG_ELIXIR",
+              "SCALA",
+              "KOTLIN",
+              "GROOVY",
+              "FORTRAN"
             ],
             "description": "Indicates the programming languages or ecosystems of the artifacts that the tool can analyse, scan, or generate metadata for — not the language the tool itself is written in."
           }
