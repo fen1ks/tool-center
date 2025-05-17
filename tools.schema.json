@@ -218,6 +218,7 @@
             "type": "string",
             "enum": [
               "C/C++",
+              "C#",
               "GO",
               "JAVA",
               "JAVASCRIPT_TYPESCRIPT",
@@ -231,7 +232,12 @@
               "SWIFT",
               "SHELL",
               "SCALA",
-              "ERLANG_ELIXIR"
+              "ERLANG_ELIXIR",
+              ".NET",
+              "KOTLIN",
+              "GROOVY",
+              "FORTRAN",
+              "OCAML"
             ],
             "description": "Languages or ecosystems in which the tool is implemented or provides libraries."
           }
@@ -283,7 +289,9 @@
               "CPE",
               "OMNIBOR",
               "SWID",
-              "SPDX"
+              "SPDX",
+              "VDR/VEX",
+              "SLSA"
             ],
             "meta:enum": {
               "CYCLONEDX": "CycloneDX – A Bill of Materials (BOM) standard and transparency expression language.",
@@ -291,7 +299,10 @@
               "CPE": "Common Platform Enumeration (CPE) – A naming scheme for classifying operating systems, applications, and hardware.",
               "OMNIBOR": "OmniBOR – A standard for embedding object references to improve traceability and attribution in software artifacts.",
               "SWID": "Software Identification (SWID) – An XML-based tag format for uniquely identifying software products and their versions.",
-              "SPDX": "Software Package Data Exchange (SPDX) – A standard format for communicating software bill of materials (SBOM) information."
+              "SPDX": "Software Package Data Exchange (SPDX) – A standard format for communicating software bill of materials (SBOM) information.",
+              "VDR/VEX": "Vulnerability Disclosure Report (VDR) and Vulnerability eXploitability eXchange (VEX) – Standards for communicating vulnerability information and exploitability status.",
+              "SLSA": "Supply chain Levels for Software Artifacts (SLSA) – A framework for securing software supply chains."
+
             }
           },
           "description": "Software supply chain standards that the tool supports."
@@ -338,7 +349,8 @@
               "SCALA",
               "KOTLIN",
               "GROOVY",
-              "FORTRAN"
+              "FORTRAN",
+              "NIM"
             ],
             "description": "Indicates the programming languages or ecosystems of the artifacts that the tool can analyse, scan, or generate metadata for — not the language the tool itself is written in."
           }
