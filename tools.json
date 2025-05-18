@@ -1,4 +1,5 @@
 {
+  "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
   "last_updated": "2025-05-17T10:45:24Z",
   "license": {
@@ -4298,8 +4299,8 @@
       "name": "SBOM CLI",
       "publisher": "Defense Unicorns",
       "description": "Creates CycloneDX SBOMs from Kubernetes Helm charts",
-      "repository_url": "",
-      "website_url": "",
+      "repository_url": null,
+      "website_url": null,
       "capabilities": [],
       "availability": [],
       "functions": [],

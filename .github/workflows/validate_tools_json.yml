@@ -1,0 +1,28 @@
+name: Validate tools.json
+
+on:
+  push:
+    paths: [ "tools.json", "tools.schema.json", ".github/workflows/validate_tools_json.yml" ]
+  pull_request:
+    paths: [ "tools.json", "tools.schema.json", ".github/workflows/validate_tools_json.yml" ]
+  workflow_dispatch:
+
+permissions: read-all
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Install check-jsonschema
+        run: pip install check-jsonschema
+
+      - name: Validate tools.json
+        run: check-jsonschema --schemafile tools.schema.json tools.json

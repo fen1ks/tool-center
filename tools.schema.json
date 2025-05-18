@@ -14,7 +14,7 @@
   "properties": {
     "$schema": {
       "type": "string",
-      "format": "iri"
+      "format": "uri"
     },
     "specVersion": {
       "type": "string",
@@ -88,12 +88,12 @@
         },
         "repository_url": {
           "type": ["string", "null"],
-          "format": "iri",
+          "format": "uri",
           "description": "The URL to the source code repository, if publicly available."
         },
         "website_url": {
           "type": ["string", "null"],
-          "format": "iri",
+          "format": "uri",
           "description": "The URL to the tool's main website or documentation."
         },
         "capabilities": {
