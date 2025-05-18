@@ -1,10 +1,13 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
+  "$comment" : "CycloneDX Tool Center JSON schema is published under the terms of the Creative Commons Attribution-ShareAlike 4.0 International license.",
   "title": "CycloneDX Tool Center v2 schema",
   "type": "object",
   "required": [
     "specVersion",
+    "last_updated",
+    "license",
     "tools"
   ],
   "additionalProperties": false,
@@ -24,6 +27,31 @@
       "type": "string",
       "format": "date-time",
       "description": "The ISO 8601 timestamp indicating when the tool registry was last updated."
+    },
+    "license": {
+      "type": "object",
+      "description": "Specifies the license governing the CycloneDX Tool Center dataset. Only CC BY-SA 4.0 is allowed.",
+      "required": [
+        "id",
+        "name",
+        "url"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "const": "CC-BY-SA-4.0"
+        },
+        "name": {
+          "type": "string",
+          "const": "Creative Commons Attribution-ShareAlike 4.0 International"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "const": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      }
     },
     "tools": {
       "type": "array",
@@ -59,12 +87,12 @@
           "description": "A short, plain-text description of the tool. Descriptions must not exceed 250 characters."
         },
         "repository_url": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "iri",
           "description": "The URL to the source code repository, if publicly available."
         },
         "website_url": {
-          "type": "string",
+          "type": ["string", "null"],
           "format": "iri",
           "description": "The URL to the tool's main website or documentation."
         },

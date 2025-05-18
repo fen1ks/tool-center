@@ -1,6 +1,11 @@
 {
   "specVersion": "2.0",
-  "last_update": "2025-05-17T10:45:24Z",
+  "last_updated": "2025-05-17T10:45:24Z",
+  "license": {
+    "id": "CC-BY-SA-4.0",
+    "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
   "tools": [
     {
       "name": "CycloneDX Core for Java",
@@ -11533,7 +11538,7 @@
     {
       "name": "BOMSkope",
       "publisher": "Netskope",
-      "description": "BOMSkope is a web-based Software Bill of Materials manager designed to streamline the tracking of vendor components. It enables the identification and monitoring of potential vulnerabilities in vendor software, enhancing visibility into your overall security posture.",
+      "description": "BOMSkope is a Software Bill of Materials manager designed to streamline the tracking of vendor components. It enables the identification and monitoring of vulnerabilities in vendor software, enhancing visibility into your overall security posture.",
       "repository_url": "https://github.com/netskopeoss/BOMSkope",
       "website_url": "https://github.com/netskopeoss/BOMSkope",
       "capabilities": [

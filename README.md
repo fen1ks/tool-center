@@ -6,7 +6,7 @@ As of March 2025, the CycloneDX Tool Center leverages a JSON Schema in which `to
 
 ## License
 
-All data within this repository is provided under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0). You are free to use, modify, and redistribute the data in accordance with the terms of this license.
+All data within this repository is provided under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license. You are free to use, modify, and redistribute the data in accordance with the terms of this license.
 
 ## Contributing
 
