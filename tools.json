@@ -126,7 +126,7 @@
         "LIBRARY"
       ],
       "library": [
-        "DOT_NET"
+        ".NET"
       ],
       "platform": [
         "LINUX",
@@ -2691,7 +2691,7 @@
         "CONTAINER_IMAGE"
       ],
       "library": [
-        "DOT_NET"
+        ".NET"
       ],
       "platform": [
         "LINUX",
@@ -8267,7 +8267,7 @@
         "COMMAND_LINE_UTILITY"
       ],
       "library": [
-        "DOT_NET"
+        ".NET"
       ],
       "platform": [
         "LINUX",
@@ -9611,7 +9611,7 @@
         "CONTAINER_IMAGE"
       ],
       "library": [
-        "DOT_NET"
+        ".NET"
       ],
       "platform": [
         "LINUX",
@@ -11446,7 +11446,8 @@
         "COMMAND_LINE_UTILITY"
       ],
       "library": [
-        "C#"
+        "C#",
+        ".NET"
       ],
       "platform": [
         "LINUX",
@@ -12102,7 +12103,7 @@
       "library": [
         "JAVASCRIPT_TYPESCRIPT",
         "JAVA",
-        "DOT_NET",
+        ".NET",
         "PYTHON",
         "RUBY",
         "PHP"
