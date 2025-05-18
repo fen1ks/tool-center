@@ -73,27 +73,27 @@
           "items": {
             "type": "string",
             "enum": [
-              "SBOM",
-              "SAASBOM",
-              "CBOM",
               "AI/ML-BOM",
+              "CBOM",
+              "CDXA",
               "HBOM",
               "MBOM",
               "OBOM",
-              "CDXA",
               "RELEASE_NOTES",
+              "SAASBOM",
+              "SBOM",
               "VDR/VEX"
             ],
             "meta:enum": {
-              "SBOM": "Software Bill of Materials",
-              "SAASBOM": "Software as-a Service Bill of Materials",
-              "CBOM": "Cryptography Bill of Materials",
               "AI/ML-BOM": "AI/ML Bill of Materials",
+              "CBOM": "Cryptography Bill of Materials",
+              "CDXA": "CycloneDX Attestations",
               "HBOM": "Hardware Bill of Materials",
               "MBOM": "Manufacturing Bill of Materials (Formulation)",
               "OBOM": "Operations Bill of Materials",
-              "CDXA": "CycloneDX Attestations",
               "RELEASE_NOTES": "Standardized Release Notes Format",
+              "SAASBOM": "Software as-a Service Bill of Materials",
+              "SBOM": "Software Bill of Materials",
               "VDR/VEX": "Vulnerability Disclosure Report and Vulnerability eXploitability Exchange"
             }
           },
@@ -104,18 +104,18 @@
           "items": {
             "type": "string",
             "enum": [
-              "OPEN_SOURCE",
-              "FREEMIUM",
-              "SUBSCRIPTION",
               "COMMERCIAL_LICENSE",
-              "OSI_APPROVED"
+              "FREEMIUM",
+              "OPEN_SOURCE",
+              "OSI_APPROVED",
+              "SUBSCRIPTION"
             ],
             "meta:enum": {
-              "OPEN_SOURCE": "Freely available under an open-source license.",
-              "FREEMIUM": "Core features are free to use, with optional paid features or upgrades.",
-              "SUBSCRIPTION": "Access is provided through a recurring payment model, such as monthly or annually.",
               "COMMERCIAL_LICENSE": "Requires a proprietary or paid license; not open source and typically restricts redistribution or modification.",
-              "OSI_APPROVED": "The tool is licensed under an OSI-approved open-source license."
+              "FREEMIUM": "Core features are free to use, with optional paid features or upgrades.",
+              "OPEN_SOURCE": "Freely available under an open-source license.",
+              "OSI_APPROVED": "The tool is licensed under an OSI-approved open-source license.",
+              "SUBSCRIPTION": "Access is provided through a recurring payment model, such as monthly or annually."
             }
           },
           "description": "Indicates the availability or license model."
@@ -129,16 +129,16 @@
               "AUTHOR",
               "DISTRIBUTE",
               "PACKAGE_MANAGER_INTEGRATION",
-              "TRANSFORM",
-              "SIGNING/NOTARY"
+              "SIGNING/NOTARY",
+              "TRANSFORM"
             ],
             "meta:enum": {
               "ANALYSIS": "Tools that can analyze CycloneDX BOMs.",
               "AUTHOR": "Tools that human authors can use to create CycloneDX BOMs.",
               "DISTRIBUTE": "Tools used to capture and distribute CycloneDX BOMs.",
               "PACKAGE_MANAGER_INTEGRATION": "Tools that integrate with build systems and package managers.",
-              "TRANSFORM": "Tools that transform CycloneDX into other formats or transform other formats into CycloneDX.",
-              "SIGNING/NOTARY": "Tools used to sign or notarize software and CycloneDX BOMs."
+              "SIGNING/NOTARY": "Tools used to sign or notarize software and CycloneDX BOMs.",
+              "TRANSFORM": "Tools that transform CycloneDX into other formats or transform other formats into CycloneDX."
             }
           },
           "description": "Describes what the tool does."
@@ -148,18 +148,18 @@
           "items": {
             "type": "string",
             "enum": [
-              "SECURITY_VULNERABILITIES",
+              "LICENSE_REPORTING",
+              "OUTDATED_COMPONENTS",
               "POLICY_EVALUATION",
               "RESOURCE_REPORTING",
-              "LICENSE_REPORTING",
-              "OUTDATED_COMPONENTS"
+              "SECURITY_VULNERABILITIES"
             ],
             "meta:enum": {
-              "SECURITY_VULNERABILITIES": "Performs security vulnerability analysis based on the contents of a BOM. For SBOMs, this typically involves identifying known vulnerabilities in software components (e.g., via CVEs). For SaaSBOMs or other service-inclusive BOMs, the analysis may expand to include service exposure, data handling practices, or configuration weaknesses.",
+              "LICENSE_REPORTING": "Extracts and reports license data associated with BOM components to support legal compliance, attribution, and license compatibility analysis. May vary depending on whether components are libraries, containers, or services.",
+              "OUTDATED_COMPONENTS": "Identifies components or services in the BOM that are outdated, deprecated, or no longer supported. This may include checking for newer versions of libraries, services, or platforms.",
               "POLICY_EVALUATION": "Evaluates BOM contents against defined policies, such as allowed licenses, approved component lists, or internal security/compliance rules. Policies may differ based on BOM type (e.g., stricter rules for embedded systems vs. cloud services).",
               "RESOURCE_REPORTING": "Analyzes and reports on the resource characteristics of components or services defined in the BOM, such as CPU usage, storage, memory footprint, or cloud infrastructure details.",
-              "LICENSE_REPORTING": "Extracts and reports license data associated with BOM components to support legal compliance, attribution, and license compatibility analysis. May vary depending on whether components are libraries, containers, or services.",
-              "OUTDATED_COMPONENTS": "Identifies components or services in the BOM that are outdated, deprecated, or no longer supported. This may include checking for newer versions of libraries, services, or platforms."
+              "SECURITY_VULNERABILITIES": "Performs security vulnerability analysis based on the contents of a BOM. For SBOMs, this typically involves identifying known vulnerabilities in software components (e.g., via CVEs). For SaaSBOMs or other service-inclusive BOMs, the analysis may expand to include service exposure, data handling practices, or configuration weaknesses."
             }
           },
           "description": "Specifies the types of analysis the tool support.s"
@@ -169,13 +169,13 @@
           "items": {
             "type": "string",
             "enum": [
-              "BOM_STANDARD",
               "BOM_SERIALIZATION_FORMAT",
+              "BOM_STANDARD",
               "BOM_VERSION"
             ],
             "meta:enum": {
-              "BOM_STANDARD": "Supports conversion between different BOM standards (e.g., CycloneDX, SPDX).",
               "BOM_SERIALIZATION_FORMAT": "Transforms the BOM between supported serialization formats such as XML and JSON.",
+              "BOM_STANDARD": "Supports conversion between different BOM standards (e.g., CycloneDX, SPDX).",
               "BOM_VERSION": "Upgrades or downgrades a BOM to a different version of the same standard."
             }
           },
@@ -219,24 +219,24 @@
             "enum": [
               "C/C++",
               "C#",
+              ".NET",
+              "ERLANG_ELIXIR",
+              "FORTRAN",
               "GO",
+              "GROOVY",
               "JAVA",
               "JAVASCRIPT_TYPESCRIPT",
+              "KOTLIN",
               "NODE.JS",
+              "OCAML",
               "PERL",
               "PHP",
               "PYTHON",
               "RUBY",
               "RUST",
-              "SWIFT",
-              "SHELL",
               "SCALA",
-              "ERLANG_ELIXIR",
-              ".NET",
-              "KOTLIN",
-              "GROOVY",
-              "FORTRAN",
-              "OCAML"
+              "SHELL",
+              "SWIFT"
             ],
             "description": "Languages or ecosystems in which the tool is implemented or provides libraries."
           }
@@ -283,25 +283,24 @@
           "items": {
             "type": "string",
             "enum": [
-              "CYCLONEDX",
-              "PACKAGE_URL",
               "CPE",
+              "CYCLONEDX",
               "OMNIBOR",
-              "SWID",
+              "PACKAGE_URL",
+              "SLSA",
               "SPDX",
-              "VDR/VEX",
-              "SLSA"
+              "SWID",
+              "VDR/VEX"
             ],
             "meta:enum": {
-              "CYCLONEDX": "CycloneDX – A Bill of Materials (BOM) standard and transparency expression language.",
-              "PACKAGE_URL": "Package-URL (PURL) – A standard format for identifying and locating software packages across ecosystems.",
               "CPE": "Common Platform Enumeration (CPE) – A naming scheme for classifying operating systems, applications, and hardware.",
+              "CYCLONEDX": "CycloneDX – A Bill of Materials (BOM) standard and transparency expression language.",
               "OMNIBOR": "OmniBOR – A standard for embedding object references to improve traceability and attribution in software artifacts.",
-              "SWID": "Software Identification (SWID) – An XML-based tag format for uniquely identifying software products and their versions.",
+              "PACKAGE_URL": "Package-URL (PURL) – A standard format for identifying and locating software packages across ecosystems.",
+              "SLSA": "Supply chain Levels for Software Artifacts (SLSA) – A framework for securing software supply chains.",
               "SPDX": "Software Package Data Exchange (SPDX) – A standard format for communicating software bill of materials (SBOM) information.",
+              "SWID": "Software Identification (SWID) – An XML-based tag format for uniquely identifying software products and their versions.",
               "VDR/VEX": "Vulnerability Disclosure Report (VDR) and Vulnerability eXploitability eXchange (VEX) – Standards for communicating vulnerability information and exploitability status.",
-              "SLSA": "Supply chain Levels for Software Artifacts (SLSA) – A framework for securing software supply chains."
-
             }
           },
           "description": "Software supply chain standards that the tool supports."
@@ -333,23 +332,23 @@
             "type": "string",
             "enum": [
               "C/C++",
+              ".NET",
+              "ERLANG_ELIXIR",
+              "FORTRAN",
               "GO",
+              "GROOVY",
               "JAVA",
               "JAVASCRIPT/TYPESCRIPT",
-              ".NET",
+              "KOTLIN",
+              "NIM",
               "NODE.JS",
               "PERL",
               "PHP",
               "PYTHON",
               "RUBY",
               "RUST",
-              "SWIFT",
-              "ERLANG_ELIXIR",
               "SCALA",
-              "KOTLIN",
-              "GROOVY",
-              "FORTRAN",
-              "NIM"
+              "SWIFT"
             ],
             "description": "Indicates the programming languages or ecosystems of the artifacts that the tool can analyse, scan, or generate metadata for — not the language the tool itself is written in."
           }
