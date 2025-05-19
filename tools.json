@@ -4201,7 +4201,7 @@
     {
       "name": "CycloneDX for Conan1",
       "publisher": "CycloneDX",
-      "description": "Creates CycloneDX Software Bill of Materials (SBOM) for C/C++ projects using Conan (note: considered deprecated)",
+      "description": "Creates CycloneDX Software Bill of Materials (SBOM) for C/C++ projects using Conan1 (note: considered deprecated)",
       "repository_url": "https://github.com/CycloneDX/cyclonedx-conan",
       "website_url": "https://pypi.org/project/cyclonedx-conan/",
       "capabilities": [
@@ -4211,8 +4211,12 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
+      "packaging": [
+        "COMMAND_LINE_UTILITY"
+      ],
       "functions": [
-        "AUTHOR"
+        "AUTHOR",
+        "PACKAGE_MANAGER_INTEGRATION"
       ],
       "platform": [
         "WINDOWS",
@@ -4227,6 +4231,15 @@
       "supportedStandards": [
         "CYCLONEDX",
         "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.3"
+      ],
+      "library": [
+        "PYTHON"
+      ],
+      "supportedLanguages": [
+        "C/C++"
       ]
     },
     {
