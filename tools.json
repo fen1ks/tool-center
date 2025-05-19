@@ -317,14 +317,15 @@
     {
       "name": "CycloneDX for Yarn",
       "publisher": "CycloneDX",
-      "description": "Yarn 4 plugin and CLI that generates CycloneDX SBOMs for Node.js workspaces, supporting CycloneDX v1.2\u2013v1.6 in JSON or XML.",
+      "description": "Create CycloneDX Software Bill of Materials (SBOM) from yarn projects.",
       "repository_url": "https://github.com/CycloneDX/cyclonedx-node-yarn",
       "website_url": "https://classic.yarnpkg.com/en/package/@cyclonedx/yarn-plugin-cyclonedx",
       "capabilities": [
         "SBOM"
       ],
       "availability": [
-        "OPEN_SOURCE"
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
       ],
       "functions": [
         "AUTHOR",
@@ -333,17 +334,8 @@
       "analysis": [
         "LICENSE_REPORTING"
       ],
-      "transform": [
-        "BOM_SERIALIZATION_FORMAT",
-        "BOM_VERSION"
-      ],
       "packaging": [
-        "COMMAND_LINE_UTILITY",
-        "LIBRARY"
-      ],
-      "library": [
-        "JAVASCRIPT_TYPESCRIPT",
-        "NODE.JS"
+        "COMMAND_LINE_UTILITY"
       ],
       "platform": [
         "LINUX",
@@ -351,6 +343,7 @@
         "WINDOWS"
       ],
       "lifecycle": [
+        "PRE-BUILD",
         "BUILD",
         "POST-BUILD",
         "OPERATIONS"
@@ -366,9 +359,13 @@
         "CYCLONEDX_V1.3",
         "CYCLONEDX_V1.2"
       ],
-      "supportedLanguages": [
-        "JAVASCRIPT/TYPESCRIPT",
+      "library": [
+        "JAVASCRIPT_TYPESCRIPT",
         "NODE.JS"
+      ],
+      "supportedLanguages": [
+        "NODE.JS",
+        "JAVASCRIPT/TYPESCRIPT"
       ]
     },
     {
