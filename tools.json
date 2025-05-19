@@ -1498,10 +1498,6 @@
       "functions": [
         "AUTHOR"
       ],
-      "analysis": [],
-      "transform": [
-        "BOM_SERIALIZATION_FORMAT"
-      ],
       "packaging": [
         "GITHUB_ACTION"
       ],
@@ -1512,12 +1508,17 @@
         "WINDOWS"
       ],
       "lifecycle": [
-        "BUILD"
+        "PRE-BUILD",
+        "BUILD",
+        "POST-BUILD"
       ],
       "supportedStandards": [
-        "CYCLONEDX"
+        "CYCLONEDX",
+        "PACKAGE_URL"
       ],
-      "cycloneDxVersion": [],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.4"
+      ],
       "supportedLanguages": [
         "PYTHON"
       ]
