@@ -361,7 +361,7 @@
         "LICENSE_REPORTING"
       ],
       "packaging": [
-        "LIBRARY"
+        "WEBPACK_PLUGIN"
       ],
       "platform": [
         "LINUX",
