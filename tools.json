@@ -800,31 +800,31 @@
     {
       "name": "CycloneDX Python Library",
       "publisher": "CycloneDX",
-      "description": "Python library that provides data models, validators, and utilities for creating, parsing and validating CycloneDX BOM documents in JSON and XML formats.",
+      "description": "This Python package provides data models, validators and more, to help you create/render/read CycloneDX documents.",
       "repository_url": "https://github.com/CycloneDX/cyclonedx-python-lib",
       "website_url": "https://pypi.org/project/cyclonedx-python-lib/",
       "capabilities": [
         "SBOM",
-        "SAASBOM",
+        "CBOM",
         "MBOM",
         "OBOM",
-        "VDR/VEX"
+        "SAASBOM",
+        "RELEASE_NOTES",
+        "VDR/VEX",
+        "CDXA",
+        "HBOM"
       ],
       "availability": [
-        "OPEN_SOURCE"
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
       ],
       "functions": [
         "AUTHOR",
-        "ANALYSIS",
         "TRANSFORM"
-      ],
-      "analysis": [
-        "LICENSE_REPORTING"
       ],
       "transform": [
         "BOM_SERIALIZATION_FORMAT",
-        "BOM_VERSION",
-        "BOM_STANDARD"
+        "BOM_VERSION"
       ],
       "packaging": [
         "LIBRARY"
@@ -836,11 +836,6 @@
         "LINUX",
         "MAC",
         "WINDOWS"
-      ],
-      "lifecycle": [
-        "DESIGN",
-        "BUILD",
-        "POST-BUILD"
       ],
       "supportedStandards": [
         "CYCLONEDX",
