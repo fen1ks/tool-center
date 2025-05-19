@@ -342,14 +342,18 @@
               "CYCLONEDX_V1.5",
               "CYCLONEDX_V1.4",
               "CYCLONEDX_V1.3",
-              "CYCLONEDX_V1.2"
+              "CYCLONEDX_V1.2",
+              "CYCLONEDX_V1.1",
+              "CYCLONEDX_V1.0"
             ],
             "meta:enum": {
               "CYCLONEDX_V1.6": "CycloneDX v1.6",
               "CYCLONEDX_V1.5": "CycloneDX v1.5",
               "CYCLONEDX_V1.4": "CycloneDX v1.4",
               "CYCLONEDX_V1.3": "CycloneDX v1.3",
-              "CYCLONEDX_V1.2": "CycloneDX v1.2"
+              "CYCLONEDX_V1.2": "CycloneDX v1.2",
+              "CYCLONEDX_V1.1": "CycloneDX v1.1",
+              "CYCLONEDX_V1.0": "CycloneDX v1.0"
             }
           },
           "description": "Specific versions of the CycloneDX specification that the tool supports."

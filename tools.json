@@ -675,7 +675,8 @@
         "CYCLONEDX_V1.5",
         "CYCLONEDX_V1.4",
         "CYCLONEDX_V1.3",
-        "CYCLONEDX_V1.2"
+        "CYCLONEDX_V1.2",
+        "CYCLONEDX_V1.1"
       ],
       "supportedLanguages": [
         "PHP"
@@ -734,7 +735,8 @@
         "CYCLONEDX_V1.5",
         "CYCLONEDX_V1.4",
         "CYCLONEDX_V1.3",
-        "CYCLONEDX_V1.2"
+        "CYCLONEDX_V1.2",
+        "CYCLONEDX_V1.1"
       ],
       "supportedLanguages": [
         "PHP"
@@ -791,7 +793,9 @@
         "CYCLONEDX_V1.5",
         "CYCLONEDX_V1.4",
         "CYCLONEDX_V1.3",
-        "CYCLONEDX_V1.2"
+        "CYCLONEDX_V1.2",
+        "CYCLONEDX_V1.1",
+        "CYCLONEDX_V1.0"
       ],
       "supportedLanguages": [
         "PYTHON"
@@ -852,7 +856,9 @@
         "CYCLONEDX_V1.5",
         "CYCLONEDX_V1.4",
         "CYCLONEDX_V1.3",
-        "CYCLONEDX_V1.2"
+        "CYCLONEDX_V1.2",
+        "CYCLONEDX_V1.1",
+        "CYCLONEDX_V1.0"
       ],
       "supportedLanguages": [
         "PYTHON"
