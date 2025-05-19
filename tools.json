@@ -4204,9 +4204,9 @@
     {
       "name": "CycloneDX for Conan2",
       "publisher": "Conan-IO",
-      "description": "Creates CycloneDX Software Bill of Materials (SBOM) for C/C++ projects using Conan-extension",
+      "description": "Creates CycloneDX Software Bill of Materials (SBOM) for C/C++ projects using Conan2",
       "repository_url": "https://github.com/conan-io/conan-extensions",
-      "website_url": "https://github.com/conan-io/conan-extensions",
+      "website_url": "https://github.com/conan-io/conan-extensions/tree/main/extensions/commands/sbom",
       "capabilities": [
         "SBOM"
       ],
@@ -4219,7 +4219,8 @@
         "COMMAND_LINE_UTILITY"
       ],
       "functions": [
-        "AUTHOR"
+        "AUTHOR",
+        "PACKAGE_MANAGER_INTEGRATION"
       ],
       "platform": [
         "WINDOWS",
@@ -4227,11 +4228,26 @@
         "MAC"
       ],
       "lifecycle": [
-        "BUILD"
+        "PRE-BUILD",
+        "BUILD",
+        "POST-BUILD"
       ],
       "supportedStandards": [
         "CYCLONEDX",
         "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.3",
+        "CYCLONEDX_V1.2",
+        "CYCLONEDX_V1.1",
+        "CYCLONEDX_V1.0"
+      ],
+      "library": [
+        "PYTHON"
+      ],
+      "supportedLanguages": [
+        "C/C++"
       ]
     },
     {
