@@ -381,18 +381,17 @@
         "SBOM"
       ],
       "availability": [
-        "OPEN_SOURCE"
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
-        "PACKAGE_MANAGER_INTEGRATION"
+        "AUTHOR"
+      ],
+      "analysis": [
+        "LICENSE_REPORTING"
       ],
       "packaging": [
         "LIBRARY"
-      ],
-      "library": [
-        "JAVASCRIPT_TYPESCRIPT",
-        "NODE.JS"
       ],
       "platform": [
         "LINUX",
@@ -414,7 +413,12 @@
         "CYCLONEDX_V1.2"
       ],
       "supportedLanguages": [
-        "JAVASCRIPT/TYPESCRIPT"
+        "JAVASCRIPT/TYPESCRIPT",
+        "NODE.JS"
+      ],
+      "library": [
+        "JAVASCRIPT_TYPESCRIPT",
+        "NODE.JS"
       ]
     },
     {
