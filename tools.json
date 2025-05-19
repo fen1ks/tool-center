@@ -11142,8 +11142,7 @@
         "WINDOWS"
       ],
       "packaging": [
-        "LIBRARY",
-        "COMMAND_LINE_UTILITY"
+        "ROLLUP_PLUGIN"
       ]
     },
     {
