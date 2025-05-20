@@ -1337,7 +1337,7 @@
     {
       "name": "CycloneDX Node.js Generate SBOM",
       "publisher": "CycloneDX",
-      "description": "GitHub Action to create a CycloneDX Software Bill-of-Materials (SBOM) for Node.js projects containing an aggregate of all project dependencies",
+      "description": "GitHub Action to create a CycloneDX Software Bill-of-Materials (SBOM) for Node.js projects containing an aggregate of all project dependencies. (note: considered deprecated)",
       "repository_url": "https://github.com/CycloneDX/gh-node-module-generatebom",
       "website_url": "https://github.com/marketplace/actions/cyclonedx-node-js-generate-sbom",
       "capabilities": [
@@ -1350,24 +1350,26 @@
       "functions": [
         "AUTHOR"
       ],
-      "analysis": [],
-      "transform": [],
       "packaging": [
         "GITHUB_ACTION"
       ],
-      "library": [],
       "platform": [
         "LINUX",
         "MAC",
         "WINDOWS"
       ],
       "lifecycle": [
-        "BUILD"
+        "PRE-BUILD",
+        "BUILD",
+        "POST-BUILD"
       ],
       "supportedStandards": [
-        "CYCLONEDX"
+        "CYCLONEDX",
+        "PACKAGE_URL"
       ],
-      "cycloneDxVersion": [],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.3"
+      ],
       "supportedLanguages": [
         "NODE.JS",
         "JAVASCRIPT/TYPESCRIPT"
