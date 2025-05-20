@@ -662,25 +662,15 @@
       "website_url": "https://packagist.org/packages/cyclonedx/cyclonedx-library",
       "capabilities": [
         "SBOM",
-        "SAASBOM",
-        "MBOM",
-        "OBOM",
-        "VDR/VEX"
+        "HBOM",
+        "OBOM"
       ],
       "availability": [
-        "OPEN_SOURCE"
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
-        "TRANSFORM",
-        "ANALYSIS"
-      ],
-      "analysis": [
-        "LICENSE_REPORTING"
-      ],
-      "transform": [
-        "BOM_SERIALIZATION_FORMAT",
-        "BOM_VERSION"
+        "AUTHOR"
       ],
       "packaging": [
         "LIBRARY"
@@ -692,11 +682,6 @@
         "LINUX",
         "MAC",
         "WINDOWS"
-      ],
-      "lifecycle": [
-        "DESIGN",
-        "BUILD",
-        "POST-BUILD"
       ],
       "supportedStandards": [
         "CYCLONEDX",
