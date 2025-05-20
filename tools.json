@@ -1428,26 +1428,27 @@
       "functions": [
         "AUTHOR"
       ],
-      "analysis": [],
-      "transform": [
-        "BOM_SERIALIZATION_FORMAT"
-      ],
       "packaging": [
         "GITHUB_ACTION"
       ],
-      "library": [],
       "platform": [
         "LINUX",
         "MAC",
         "WINDOWS"
       ],
       "lifecycle": [
-        "BUILD"
+        "PRE-BUILD",
+        "BUILD",
+        "POST-BUILD"
       ],
       "supportedStandards": [
-        "CYCLONEDX"
+        "CYCLONEDX",
+        "PACKAGE_URL"
       ],
-      "cycloneDxVersion": [],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.3",
+        "CYCLONEDX_V1.2"
+      ],
       "supportedLanguages": [
         "PHP"
       ]
