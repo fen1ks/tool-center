@@ -171,19 +171,15 @@
         "SAASBOM",
         "OBOM",
         "MBOM",
+        "HBOM",
         "VDR/VEX"
       ],
       "availability": [
-        "OPEN_SOURCE"
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
       ],
       "functions": [
-        "AUTHOR",
-        "ANALYSIS",
-        "TRANSFORM"
-      ],
-      "transform": [
-        "BOM_SERIALIZATION_FORMAT",
-        "BOM_VERSION"
+        "AUTHOR"
       ],
       "packaging": [
         "LIBRARY"
@@ -196,9 +192,6 @@
         "LINUX",
         "MAC",
         "WINDOWS"
-      ],
-      "lifecycle": [
-        "BUILD"
       ],
       "supportedStandards": [
         "CYCLONEDX",
