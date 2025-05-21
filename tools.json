@@ -1540,7 +1540,8 @@
       ],
       "functions": [
         "AUTHOR",
-        "ANALYSIS"
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
@@ -1576,7 +1577,19 @@
         "CYCLONEDX_V1.4"
       ],
       "supportedLanguages": [
-        "JAVA"
+        "C/C++",
+        ".NET",
+        "GO",
+        "JAVA",
+        "JAVASCRIPT/TYPESCRIPT",
+        "KOTLIN",
+        "NODE.JS",
+        "PHP",
+        "PYTHON",
+        "RUBY",
+        "RUST",
+        "SCALA",
+        "SWIFT"
       ]
     },
     {
