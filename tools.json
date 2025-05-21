@@ -622,6 +622,7 @@
         "LICENSE_REPORTING"
       ],
       "packaging": [
+        "COMPOSER_PLUGIN",
         "COMMAND_LINE_UTILITY",
         "LIBRARY"
       ],
