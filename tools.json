@@ -1556,7 +1556,10 @@
         "COMMAND_LINE_UTILITY",
         "CONTAINER_IMAGE",
         "LIBRARY",
-        "APPLICATION"
+        "APPLICATION",
+        "GITHUB_ACTION",
+        "GITLAB_CI_TEMPLATE",
+        "JENKINS_PLUGIN"
       ],
       "library": [
         "JAVA"
