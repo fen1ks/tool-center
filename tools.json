@@ -1526,9 +1526,9 @@
     {
       "name": "OSS Review Toolkit (ORT)",
       "publisher": "OSS Review Toolkit",
-      "description": "A comprehensive suite of tools to automate software compliance checks, analyze dependencies, and generate SBOMs and documentation",
+      "description": "A comprehensive suite of tools to automate software compliance checks, analyze dependencies / vulnerabilities, and generate reports.",
       "repository_url": "https://github.com/oss-review-toolkit/ort",
-      "website_url": "https://oss-review-toolkit.org/ort/",
+      "website_url": "https://oss-review-toolkit.org/",
       "capabilities": [
         "SBOM",
         "CBOM",
