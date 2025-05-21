@@ -1526,9 +1526,9 @@
     {
       "name": "OSS Review Toolkit (ORT)",
       "publisher": "OSS Review Toolkit",
-      "description": "A comprehensive suite of tools to automate software compliance checks, analyze dependencies, and generate SBOMs and documentation",
+      "description": "A comprehensive suite of tools to automate software compliance checks, analyze dependencies / vulnerabilities, and generate reports.",
       "repository_url": "https://github.com/oss-review-toolkit/ort",
-      "website_url": "https://oss-review-toolkit.org/ort/",
+      "website_url": "https://oss-review-toolkit.org/",
       "capabilities": [
         "SBOM",
         "CBOM",
@@ -1540,11 +1540,13 @@
       ],
       "functions": [
         "AUTHOR",
-        "ANALYSIS"
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
-        "LICENSE_REPORTING"
+        "LICENSE_REPORTING",
+        "POLICY_EVALUATION"
       ],
       "transform": [
         "BOM_SERIALIZATION_FORMAT",
@@ -1554,10 +1556,14 @@
         "COMMAND_LINE_UTILITY",
         "CONTAINER_IMAGE",
         "LIBRARY",
-        "APPLICATION"
+        "APPLICATION",
+        "GITHUB_ACTION",
+        "GITLAB_CI_TEMPLATE",
+        "JENKINS_PLUGIN"
       ],
       "library": [
-        "JAVA"
+        "JAVA",
+        "KOTLIN"
       ],
       "platform": [
         "LINUX",
@@ -1570,13 +1576,33 @@
       ],
       "supportedStandards": [
         "CYCLONEDX",
-        "PACKAGE_URL"
+        "PACKAGE_URL",
+        "CPE",
+        "SPDX"
       ],
       "cycloneDxVersion": [
-        "CYCLONEDX_V1.4"
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.3",
+        "CYCLONEDX_V1.2",
+        "CYCLONEDX_V1.1",
+        "CYCLONEDX_V1.0"
       ],
       "supportedLanguages": [
-        "JAVA"
+        "C/C++",
+        ".NET",
+        "GO",
+        "JAVA",
+        "JAVASCRIPT/TYPESCRIPT",
+        "KOTLIN",
+        "NODE.JS",
+        "PHP",
+        "PYTHON",
+        "RUBY",
+        "RUST",
+        "SCALA",
+        "SWIFT"
       ]
     },
     {
