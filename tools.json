@@ -1576,7 +1576,9 @@
       ],
       "supportedStandards": [
         "CYCLONEDX",
-        "PACKAGE_URL"
+        "PACKAGE_URL",
+        "CPE",
+        "SPDX"
       ],
       "cycloneDxVersion": [
         "CYCLONEDX_V1.4"
