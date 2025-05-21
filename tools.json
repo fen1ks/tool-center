@@ -12399,10 +12399,18 @@
       "repository_url": "https://github.com/relizaio/rearm",
       "website_url": "https://rearmhq.com",
       "capabilities": [
+        "AI/ML-BOM",
+        "CBOM",
+        "CDXA",
+        "OBOM",
+        "RELEASE_NOTES",
+        "SAASBOM",
         "SBOM",
         "VDR/VEX"
       ],
       "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED",
         "COMMERCIAL_LICENSE"
       ],
       "functions": [
@@ -12429,23 +12437,29 @@
         "WINDOWS"
       ],
       "lifecycle": [
+        "PRE-BUILD",
         "BUILD",
         "POST-BUILD",
-        "OPERATIONS"
+        "OPERATIONS",
+        "DECOMMISSION"
       ],
       "supportedStandards": [
         "CYCLONEDX",
-        "SPDX"
+        "SPDX",
+        "PACKAGE_URL"
       ],
       "cycloneDxVersion": [
         "CYCLONEDX_V1.4",
-        "CYCLONEDX_V1.5"
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.6"
       ],
       "supportedLanguages": [
         ".NET",
         "JAVA",
         "JAVASCRIPT/TYPESCRIPT",
-        "PYTHON"
+        "PYTHON",
+        "GO",
+        "NODE.JS"
       ]
     },
     {
