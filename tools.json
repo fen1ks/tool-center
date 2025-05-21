@@ -1562,7 +1562,8 @@
         "JENKINS_PLUGIN"
       ],
       "library": [
-        "JAVA"
+        "JAVA",
+        "KOTLIN"
       ],
       "platform": [
         "LINUX",
