@@ -223,6 +223,14 @@
         "OPEN_SOURCE",
         "OSI_APPROVED"
       ],
+      "functions": [
+        "AUTHOR",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "packaging": [
+        "COMMAND_LINE_UTILITY",
+        "LIBRARY"
+      ],
       "library": [
         "NODE.JS"
       ],
@@ -239,30 +247,33 @@
     {
       "name": "CycloneDX for NPM",
       "publisher": "CycloneDX",
-      "description": "Command-line utility and TypeScript library that generates CycloneDX Software Bills of Materials (SBOMs) for Node.js (npm/yarn/pnpm) projects.",
+      "description": "Create CycloneDX Software Bill of Materials (SBOM) from npm projects.",
       "repository_url": "https://github.com/CycloneDX/cyclonedx-node-npm",
       "website_url": "https://www.npmjs.com/package/@cyclonedx/cyclonedx-npm",
       "capabilities": [
         "SBOM"
       ],
       "availability": [
-        "OPEN_SOURCE"
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
       ],
       "functions": [
         "AUTHOR",
-        "ANALYSIS",
         "PACKAGE_MANAGER_INTEGRATION"
       ],
-      "transform": [
-        "BOM_SERIALIZATION_FORMAT",
-        "BOM_VERSION"
+      "library": [
+        "JAVASCRIPT_TYPESCRIPT",
+        "NODE.JS"
+      ],
+      "supportedLanguages": [
+        "JAVASCRIPT/TYPESCRIPT",
+        "NODE.JS"
+      ],
+      "analysis": [
+        "LICENSE_REPORTING"
       ],
       "packaging": [
-        "COMMAND_LINE_UTILITY",
-        "LIBRARY"
-      ],
-      "library": [
-        "JAVASCRIPT_TYPESCRIPT"
+        "COMMAND_LINE_UTILITY"
       ],
       "platform": [
         "LINUX",
@@ -270,7 +281,11 @@
         "WINDOWS"
       ],
       "lifecycle": [
-        "BUILD"
+        "DESIGN",
+        "PRE-BUILD",
+        "BUILD",
+        "POST-BUILD",
+        "OPERATIONS"
       ],
       "supportedStandards": [
         "CYCLONEDX",
@@ -282,9 +297,6 @@
         "CYCLONEDX_V1.4",
         "CYCLONEDX_V1.3",
         "CYCLONEDX_V1.2"
-      ],
-      "supportedLanguages": [
-        "JAVASCRIPT/TYPESCRIPT"
       ]
     },
     {
@@ -362,7 +374,7 @@
         "LICENSE_REPORTING"
       ],
       "packaging": [
-        "LIBRARY"
+        "WEBPACK_PLUGIN"
       ],
       "platform": [
         "LINUX",
@@ -623,6 +635,7 @@
         "LICENSE_REPORTING"
       ],
       "packaging": [
+        "COMPOSER_PLUGIN",
         "COMMAND_LINE_UTILITY",
         "LIBRARY"
       ],
@@ -1527,9 +1540,9 @@
     {
       "name": "OSS Review Toolkit (ORT)",
       "publisher": "OSS Review Toolkit",
-      "description": "A comprehensive suite of tools to automate software compliance checks, analyze dependencies, and generate SBOMs and documentation",
+      "description": "A comprehensive suite of tools to automate software compliance checks, analyze dependencies / vulnerabilities, and generate reports.",
       "repository_url": "https://github.com/oss-review-toolkit/ort",
-      "website_url": "https://oss-review-toolkit.org/ort/",
+      "website_url": "https://oss-review-toolkit.org/",
       "capabilities": [
         "SBOM",
         "CBOM",
@@ -1541,11 +1554,13 @@
       ],
       "functions": [
         "AUTHOR",
-        "ANALYSIS"
+        "ANALYSIS",
+        "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
-        "LICENSE_REPORTING"
+        "LICENSE_REPORTING",
+        "POLICY_EVALUATION"
       ],
       "transform": [
         "BOM_SERIALIZATION_FORMAT",
@@ -1555,10 +1570,14 @@
         "COMMAND_LINE_UTILITY",
         "CONTAINER_IMAGE",
         "LIBRARY",
-        "APPLICATION"
+        "APPLICATION",
+        "GITHUB_ACTION",
+        "GITLAB_CI_TEMPLATE",
+        "JENKINS_PLUGIN"
       ],
       "library": [
-        "JAVA"
+        "JAVA",
+        "KOTLIN"
       ],
       "platform": [
         "LINUX",
@@ -1571,13 +1590,33 @@
       ],
       "supportedStandards": [
         "CYCLONEDX",
-        "PACKAGE_URL"
+        "PACKAGE_URL",
+        "CPE",
+        "SPDX"
       ],
       "cycloneDxVersion": [
-        "CYCLONEDX_V1.4"
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.3",
+        "CYCLONEDX_V1.2",
+        "CYCLONEDX_V1.1",
+        "CYCLONEDX_V1.0"
       ],
       "supportedLanguages": [
-        "JAVA"
+        "C/C++",
+        ".NET",
+        "GO",
+        "JAVA",
+        "JAVASCRIPT/TYPESCRIPT",
+        "KOTLIN",
+        "NODE.JS",
+        "PHP",
+        "PYTHON",
+        "RUBY",
+        "RUST",
+        "SCALA",
+        "SWIFT"
       ]
     },
     {
@@ -4205,9 +4244,9 @@
     {
       "name": "CycloneDX for Conan2",
       "publisher": "Conan-IO",
-      "description": "Creates CycloneDX Software Bill of Materials (SBOM) for C/C++ projects using Conan-extension",
+      "description": "Creates CycloneDX Software Bill of Materials (SBOM) for C/C++ projects using Conan2",
       "repository_url": "https://github.com/conan-io/conan-extensions",
-      "website_url": "https://github.com/conan-io/conan-extensions",
+      "website_url": "https://github.com/conan-io/conan-extensions/tree/main/extensions/commands/sbom",
       "capabilities": [
         "SBOM"
       ],
@@ -4220,7 +4259,8 @@
         "COMMAND_LINE_UTILITY"
       ],
       "functions": [
-        "AUTHOR"
+        "AUTHOR",
+        "PACKAGE_MANAGER_INTEGRATION"
       ],
       "platform": [
         "WINDOWS",
@@ -4228,11 +4268,26 @@
         "MAC"
       ],
       "lifecycle": [
-        "BUILD"
+        "PRE-BUILD",
+        "BUILD",
+        "POST-BUILD"
       ],
       "supportedStandards": [
         "CYCLONEDX",
         "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.3",
+        "CYCLONEDX_V1.2",
+        "CYCLONEDX_V1.1",
+        "CYCLONEDX_V1.0"
+      ],
+      "library": [
+        "PYTHON"
+      ],
+      "supportedLanguages": [
+        "C/C++"
       ]
     },
     {
@@ -12374,10 +12429,18 @@
       "repository_url": "https://github.com/relizaio/rearm",
       "website_url": "https://rearmhq.com",
       "capabilities": [
+        "AI/ML-BOM",
+        "CBOM",
+        "CDXA",
+        "OBOM",
+        "RELEASE_NOTES",
+        "SAASBOM",
         "SBOM",
         "VDR/VEX"
       ],
       "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED",
         "COMMERCIAL_LICENSE"
       ],
       "functions": [
@@ -12404,23 +12467,29 @@
         "WINDOWS"
       ],
       "lifecycle": [
+        "PRE-BUILD",
         "BUILD",
         "POST-BUILD",
-        "OPERATIONS"
+        "OPERATIONS",
+        "DECOMMISSION"
       ],
       "supportedStandards": [
         "CYCLONEDX",
-        "SPDX"
+        "SPDX",
+        "PACKAGE_URL"
       ],
       "cycloneDxVersion": [
         "CYCLONEDX_V1.4",
-        "CYCLONEDX_V1.5"
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.6"
       ],
       "supportedLanguages": [
         ".NET",
         "JAVA",
         "JAVASCRIPT/TYPESCRIPT",
-        "PYTHON"
+        "PYTHON",
+        "GO",
+        "NODE.JS"
       ]
     },
     {
