@@ -12378,13 +12378,13 @@
         "CDXA",
         "OBOM",
         "RELEASE_NOTES",
-        "SAASBOM"
+        "SAASBOM",
         "SBOM",
         "VDR/VEX"
       ],
       "availability": [
         "OPEN_SOURCE",
-        "OSI_APPROVED"
+        "OSI_APPROVED",
         "COMMERCIAL_LICENSE"
       ],
       "functions": [
