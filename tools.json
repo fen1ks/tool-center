@@ -10106,7 +10106,6 @@
       "supportedStandards": [
         "CYCLONEDX",
         "SPDX",
-        "VDR/VEX",
         "SLSA"
       ],
       "cycloneDxVersion": [

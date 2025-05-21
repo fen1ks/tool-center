@@ -321,8 +321,7 @@
               "PACKAGE_URL",
               "SLSA",
               "SPDX",
-              "SWID",
-              "VDR/VEX"
+              "SWID"
             ],
             "meta:enum": {
               "CPE": "Common Platform Enumeration (CPE) – A naming scheme for classifying operating systems, applications, and hardware.",
@@ -331,8 +330,7 @@
               "PACKAGE_URL": "Package-URL (PURL) – A standard format for identifying and locating software packages across ecosystems.",
               "SLSA": "Supply chain Levels for Software Artifacts (SLSA) – A framework for securing software supply chains.",
               "SPDX": "Software Package Data Exchange (SPDX) – A standard format for communicating software bill of materials (SBOM) information.",
-              "SWID": "Software Identification (SWID) – An XML-based tag format for uniquely identifying software products and their versions.",
-              "VDR/VEX": "Vulnerability Disclosure Report (VDR) and Vulnerability eXploitability eXchange (VEX) – Standards for communicating vulnerability information and exploitability status."
+              "SWID": "Software Identification (SWID) – An XML-based tag format for uniquely identifying software products and their versions."
             }
           },
           "description": "Software supply chain standards that the tool supports."
