@@ -12544,11 +12544,11 @@
       "supportedLanguages": []
     },
     {
-      "name": "AI SBOM (AIBOM, ML-BOM) Generator",
+      "name": "AI SBOM Generator",
       "publisher": "Aetheris AI",
       "description": "Generate AI SBOM (AIBOM, AI/ML-BOM) in CycloneDX format for models on Hugging Face.",
       "repository_url": "https://github.com/aetheris-ai/aibom-generator/",
-      "website_url": "https://huggingface.co/spaces/aetheris-ai/aibom-generator",
+      "website_url": "https://sbom.aetheris.ai",
       "capabilities": [
         "AI/ML-BOM"
       ],
