@@ -9319,7 +9319,7 @@
       ]
     },
     {
-      "name": "Abom",
+      "name": "Vulert Vulnerability Scanner",
       "publisher": "Vulert.com",
       "description": "Web SCA service that analyzes CycloneDX or SPDX SBOMs (or lockfiles) to flag open-source vulnerabilities and license issues, sending real-time alerts without requiring code access or signup.",
       "website_url": "https://vulert.com/abom",
