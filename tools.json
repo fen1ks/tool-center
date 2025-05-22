@@ -1677,6 +1677,9 @@
       "repository_url": "https://github.com/DependencyTrack/dependency-track",
       "website_url": "https://dependencytrack.org/",
       "capabilities": [
+        "HBOM",
+        "OBOM",
+        "SAASBOM",
         "SBOM",
         "VDR/VEX"
       ],
@@ -1685,12 +1688,14 @@
         "OSI_APPROVED"
       ],
       "functions": [
-        "ANALYSIS"
+        "ANALYSIS",
+        "AUTHOR"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
         "LICENSE_REPORTING",
-        "OUTDATED_COMPONENTS"
+        "OUTDATED_COMPONENTS",
+        "POLICY_EVALUATION"
       ],
       "transform": [
         "BOM_SERIALIZATION_FORMAT"
@@ -1708,7 +1713,7 @@
         "WINDOWS"
       ],
       "lifecycle": [
-        "POST-BUILD",
+        "PRE-BUILD",
         "BUILD",
         "POST-BUILD"
       ],
@@ -1720,7 +1725,8 @@
       ],
       "cycloneDxVersion": [
         "CYCLONEDX_V1.4",
-        "CYCLONEDX_V1.5"
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.6"
       ],
       "supportedLanguages": [
         "JAVA",
