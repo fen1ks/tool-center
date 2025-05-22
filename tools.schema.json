@@ -227,7 +227,8 @@
               "LIBRARY",
               "MAVEN_PLUGIN",
               "ROLLUP_PLUGIN",
-              "WEBPACK_PLUGIN"
+              "WEBPACK_PLUGIN",
+              "YARN_PLUGIN"
             ],
             "meta:enum": {
               "AZURE_PIPELINE_EXTENSION": "Extension or task used within Azure DevOps pipelines.",
@@ -243,7 +244,8 @@
               "LIBRARY": "Software component intended for integration into other tools or applications via code.",
               "MAVEN_PLUGIN": "Plugin designed for use within the Maven build system.",
               "ROLLUP_PLUGIN": "Plugin designed for use within the Rollup build system.",
-              "WEBPACK_PLUGIN": "Plugin designed for use within the webpack build system."
+              "WEBPACK_PLUGIN": "Plugin designed for use within the webpack build system.",
+              "YARN_PLUGIN": "Plugin designed for use within the yarn package manager."
             }
           },
           "description": "Specifies the distribution or integration format of the tool, reflecting how it is delivered, executed, or embedded within user environments and CI/CD systems."

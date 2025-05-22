@@ -320,6 +320,7 @@
         "LICENSE_REPORTING"
       ],
       "packaging": [
+        "YARN_PLUGIN",
         "COMMAND_LINE_UTILITY"
       ],
       "platform": [
