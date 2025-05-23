@@ -12650,7 +12650,7 @@
             "supportedLanguages": [
                             "GO", 
                             "JAVA", 
-                            "JAVASCRIPT_TYPESCRIPT", 
+                            "JAVASCRIPT/TYPESCRIPT", 
                             ".NET", 
                             "C/C++"
                         ]
