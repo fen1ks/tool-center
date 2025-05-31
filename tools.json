@@ -7572,10 +7572,10 @@
       ]
     },
     {
-      "name": "secure.software",
+      "name": "Spectra Assure",
       "publisher": "ReversingLabs",
-      "description": "secure.software (Spectra Assure) protects CI/CD workflows by scanning release artifacts for malware, vulnerabilities and policy violations, then exporting CycloneDX 1.6 SBOMs, SaaSBOMs, CBOMs and AI/ML-BOMs with optional VEX.",
-      "repository_url": "https://github.com/reversinglabs/rl-scanner",
+      "description": "Spectra Assure scans binary software packages, container images, and VM disk images to detect malware, tampering, vulnerabilities, and other exposures. CycloneDX SBOM, SaaSBOM, ML-BOM, and CBOM are outputs.",
+      "repository_url": "https://github.com/reversinglabs/spectra-assure-sdk",
       "website_url": "https://www.reversinglabs.com/products/software-supply-chain-security",
       "capabilities": [
         "SBOM",
@@ -7606,11 +7606,11 @@
         "CONTAINER_IMAGE",
         "GITHUB_ACTION",
         "GITLAB_CI_TEMPLATE",
-        "JENKINS_PLUGIN",
-        "AZURE_PIPELINE_EXTENSION"
+        "AZURE_PIPELINE_EXTENSION",
+        "LIBRARY"
       ],
       "library": [
-        "GO"
+        "PYTHON"
       ],
       "platform": [
         "LINUX",
@@ -7623,7 +7623,9 @@
         "OPERATIONS"
       ],
       "supportedStandards": [
+        "CPE",
         "CYCLONEDX",
+        "PACKAGE_URL",
         "SPDX"
       ],
       "cycloneDxVersion": [
