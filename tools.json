@@ -11109,14 +11109,6 @@
         "MAC",
         "WINDOWS"
       ],
-      "library": [
-        ".NET",
-        "C/C++",
-        "JAVA",
-        "JAVASCRIPT_TYPESCRIPT",
-        "PHP",
-        "PYTHON"
-      ],
       "lifecycle": [
         "DESIGN",
         "BUILD",
