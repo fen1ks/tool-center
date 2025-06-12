@@ -11081,12 +11081,14 @@
       ]
     },
     {
-      "name": "SUM Platform",
+      "name": "ARIANNA",
       "publisher": "Security Pattern",
-      "description": "SBOM management and vulnerability monitoring platform for IoT and embedded systems. Show compliance to regulations and standards and manage risk across the entire product lifecycle.",
-      "website_url": "https://www.securitypattern.com/sumplatform",
+      "description": "SBOM, HBOM and vulnerability management platform for intelligent connect devices. Show compliance to regulations and standards and manage risk across the entire product lifecycle.",
+      "website_url": "https://www.securitypattern.com/arianna-security-management-platform",
       "capabilities": [
-        "SBOM"
+        "SBOM",
+        "HBOM",
+        "VDR/VEX"
       ],
       "availability": [
         "COMMERCIAL_LICENSE"
@@ -11113,7 +11115,9 @@
         "OPERATIONS"
       ],
       "supportedStandards": [
+        "CPE",
         "CYCLONEDX",
+        "PACKAGE_URL",
         "SPDX"
       ],
       "cycloneDxVersion": [
@@ -11125,7 +11129,8 @@
         "JAVA",
         "JAVASCRIPT/TYPESCRIPT",
         ".NET",
-        "PYTHON"
+        "PYTHON",
+        "PHP"
       ]
     },
     {
