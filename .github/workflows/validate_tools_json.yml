@@ -7,7 +7,8 @@ on:
     paths: [ "tools.json", "tools.schema.json", ".github/workflows/validate_tools_json.yml" ]
   workflow_dispatch:
 
-permissions: read-all
+# https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/controlling-permissions-for-github_token
+permissions: {}
 
 jobs:
   validate:
