@@ -12809,7 +12809,6 @@
         "JAVASCRIPT/TYPESCRIPT",
         "PHP",
         "JAVA",
-        "PYTHON",
         "SWIFT",
         "GO",
         "PYTHON",
@@ -12817,11 +12816,9 @@
         "RUBY",
         "RUST",
         "KOTLIN",
-        "DART",
-        "ELIXIR",
+        "ERLANG_ELIXIR",
         "C/C++",
-        "SCALA",
-        "CLOJURE"
+        "SCALA"
       ]
     }
   ]
