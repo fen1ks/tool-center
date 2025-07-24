@@ -509,7 +509,7 @@
     },
     {
       "name": "CycloneDX for Go modules",
-      "publisher": "OWASP Foundation \u2013 CycloneDX Project",
+      "publisher": "OWASP Foundation – CycloneDX Project",
       "description": "Command-line utility and Go library that generates CycloneDX SBOMs from Go modules, binaries and applications.",
       "repository_url": "https://github.com/CycloneDX/cyclonedx-gomod",
       "website_url": "https://github.com/CycloneDX/cyclonedx-gomod",
@@ -1165,7 +1165,7 @@
     {
       "name": "cdxgen",
       "publisher": "CycloneDX",
-      "description": "Universal polyglot CLI, library and server that generates CycloneDX SBOMs\u2014including SaaSBOM, OBOM and CBOM variants\u2014for source code, container images and cloud resources.",
+      "description": "Universal polyglot CLI, library and server that generates CycloneDX SBOMs—including SaaSBOM, OBOM and CBOM variants—for source code, container images and cloud resources.",
       "repository_url": "https://github.com/CycloneDX/cdxgen",
       "website_url": "https://cyclonedx.github.io/cdxgen/",
       "capabilities": [
@@ -6302,7 +6302,7 @@
     {
       "name": "Black Duck",
       "publisher": "Synopsys",
-      "description": "Black Duck is Synopsys\u2019 SCA platform that generates CycloneDX/SPDX SBOMs, detects open-source vulnerabilities, and automates license and policy compliance across applications, containers and CI/CD pipelines.",
+      "description": "Black Duck is Synopsys’ SCA platform that generates CycloneDX/SPDX SBOMs, detects open-source vulnerabilities, and automates license and policy compliance across applications, containers and CI/CD pipelines.",
       "repository_url": "https://github.com/blackducksoftware/detect",
       "website_url": "https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html",
       "capabilities": [
@@ -6647,7 +6647,7 @@
     {
       "name": "sbom-submission-action",
       "publisher": "TietoEVRY",
-      "description": "GitHub Action that uploads CycloneDX SBOM files to GitHub\u2019s dependency submission API, enabling Dependabot security analysis downstream.",
+      "description": "GitHub Action that uploads CycloneDX SBOM files to GitHub’s dependency submission API, enabling Dependabot security analysis downstream.",
       "repository_url": "https://github.com/evryfs/sbom-dependency-submission-action",
       "website_url": "https://github.com/marketplace/actions/sbom-submission-action",
       "capabilities": [
@@ -11144,7 +11144,7 @@
     {
       "name": "SBOM Vendor Management",
       "publisher": "SettleTop, Inc.",
-      "description": "Manage, assess, store and monitor all your vendor\u2019s SBOMs in one secure, centralized dashboard to improve supply chain security.",
+      "description": "Manage, assess, store and monitor all your vendor’s SBOMs in one secure, centralized dashboard to improve supply chain security.",
       "website_url": "https://www.settletop.com/sbom",
       "repository_url": "https://www.settletop.com/sbom",
       "capabilities": [
@@ -12669,7 +12669,8 @@
         "GO",
         "JAVASCRIPT_TYPESCRIPT"
       ],
-      "platform": [   "LINUX",
+      "platform": [
+        "LINUX",
         "WINDOWS"
       ],
       "lifecycle": [
