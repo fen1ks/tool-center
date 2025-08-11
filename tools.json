@@ -12815,7 +12815,7 @@
     {
       "name": "ClickBOM",
       "publisher": "ClickHouse",
-      "description": "Downloads and merges SBOMs from various sources. Convert to CycloneDX and SPDX formats. Upload to cloud storage and ClickHouse for analytics.",
+      "description": "Downloads and merges SBOMs from various sources. Converts to CycloneDX and SPDX formats. Uploads to cloud storage and ClickHouse for analytics.",
       "repository_url": "https://github.com/ClickHouse/ClickBOM",
       "website_url": "https://github.com/marketplace/actions/clickbom",
       "capabilities": [
