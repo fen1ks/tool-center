@@ -12811,6 +12811,41 @@
         "JAVASCRIPT/TYPESCRIPT",
         "PYTHON"
       ]
+    },
+    {
+      "name": "ClickBOM",
+      "publisher": "ClickHouse",
+      "description": "Downloads and merges SBOMs from various sources. Convert to CycloneDX and SPDX formats. Upload to cloud storage and ClickHouse for analytics.",
+      "repository_url": "https://github.com/ClickHouse/ClickBOM",
+      "website_url": "https://github.com/marketplace/actions/clickbom",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "AUTHOR",
+        "DISTRIBUTE",
+        "TRANSFORM"
+      ],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "platform": [
+        "LINUX"
+      ],
+      "lifecycle": [
+        "BUILD",
+        "DISCOVERY",
+        "OPERATIONS",
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX"
+      ]
     }
   ]
 }
