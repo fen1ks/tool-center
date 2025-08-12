@@ -12761,7 +12761,7 @@
     {
       "name": "Aikido Security",
       "publisher": "Aikido Security",
-      "description": "No bullsh*t security for devs. One central system that shows you what matters and how to fix it, from code-to-cloud.‍ Get security done. Get back to building.",
+      "description": "Code-to-cloud security in one platform—scan, prioritize, and fix issues across the full stack.",
       "website_url": "https://aikido.dev",
       "capabilities": [
         "SBOM",
@@ -12775,7 +12775,6 @@
       "functions": [
         "ANALYSIS",
         "AUTHOR",
-        "PACKAGE_MANAGER_INTEGRATION"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
