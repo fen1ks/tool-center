@@ -16,6 +16,9 @@ Contributions are welcome! If you know of a tool, product, or service related to
 - Any provided metadata or descriptions are accurate and up-to-date.
 - Licensing and attribution requirements for tools are respected.
 
+Editing the `tools.json` file manually can be complicated. An alternative is to use
+[MetaConfigurator](https://metaconfigurator.github.io/meta-configurator/?schema=https://raw.githubusercontent.com/CycloneDX/tool-center/refs/heads/main/tools.schema.json&data=https://raw.githubusercontent.com/CycloneDX/tool-center/refs/heads/main/tools.json&settings=https://raw.githubusercontent.com/CycloneDX/tool-center/refs/heads/main/metaConfiguratorSettings.json) to make changes then download the edited data.
+
 ## Community & Support
 
 If you have questions, suggestions, or feedback about the CycloneDX Tool Center, we encourage you to:

@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2025-05-17T10:45:24Z",
+  "last_updated": "2025-07-22T08:05:58Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -509,7 +509,7 @@
     },
     {
       "name": "CycloneDX for Go modules",
-      "publisher": "OWASP Foundation \u2013 CycloneDX Project",
+      "publisher": "OWASP Foundation – CycloneDX Project",
       "description": "Command-line utility and Go library that generates CycloneDX SBOMs from Go modules, binaries and applications.",
       "repository_url": "https://github.com/CycloneDX/cyclonedx-gomod",
       "website_url": "https://github.com/CycloneDX/cyclonedx-gomod",
@@ -1165,7 +1165,7 @@
     {
       "name": "cdxgen",
       "publisher": "CycloneDX",
-      "description": "Universal polyglot CLI, library and server that generates CycloneDX SBOMs\u2014including SaaSBOM, OBOM and CBOM variants\u2014for source code, container images and cloud resources.",
+      "description": "Universal polyglot CLI, library and server that generates CycloneDX SBOMs—including SaaSBOM, OBOM and CBOM variants—for source code, container images and cloud resources.",
       "repository_url": "https://github.com/CycloneDX/cdxgen",
       "website_url": "https://cyclonedx.github.io/cdxgen/",
       "capabilities": [
@@ -2774,7 +2774,15 @@
         "SPDX",
         "PACKAGE_URL"
       ],
-      "cycloneDxVersion": [],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.6",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.3",
+        "CYCLONEDX_V1.2",
+        "CYCLONEDX_V1.1",
+        "CYCLONEDX_V1.0"
+      ],
       "supportedLanguages": []
     },
     {
@@ -6294,7 +6302,7 @@
     {
       "name": "Black Duck",
       "publisher": "Synopsys",
-      "description": "Black Duck is Synopsys\u2019 SCA platform that generates CycloneDX/SPDX SBOMs, detects open-source vulnerabilities, and automates license and policy compliance across applications, containers and CI/CD pipelines.",
+      "description": "Black Duck is Synopsys’ SCA platform that generates CycloneDX/SPDX SBOMs, detects open-source vulnerabilities, and automates license and policy compliance across applications, containers and CI/CD pipelines.",
       "repository_url": "https://github.com/blackducksoftware/detect",
       "website_url": "https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html",
       "capabilities": [
@@ -6639,7 +6647,7 @@
     {
       "name": "sbom-submission-action",
       "publisher": "TietoEVRY",
-      "description": "GitHub Action that uploads CycloneDX SBOM files to GitHub\u2019s dependency submission API, enabling Dependabot security analysis downstream.",
+      "description": "GitHub Action that uploads CycloneDX SBOM files to GitHub’s dependency submission API, enabling Dependabot security analysis downstream.",
       "repository_url": "https://github.com/evryfs/sbom-dependency-submission-action",
       "website_url": "https://github.com/marketplace/actions/sbom-submission-action",
       "capabilities": [
@@ -11136,7 +11144,7 @@
     {
       "name": "SBOM Vendor Management",
       "publisher": "SettleTop, Inc.",
-      "description": "Manage, assess, store and monitor all your vendor\u2019s SBOMs in one secure, centralized dashboard to improve supply chain security.",
+      "description": "Manage, assess, store and monitor all your vendor’s SBOMs in one secure, centralized dashboard to improve supply chain security.",
       "website_url": "https://www.settletop.com/sbom",
       "repository_url": "https://www.settletop.com/sbom",
       "capabilities": [
@@ -12661,7 +12669,8 @@
         "GO",
         "JAVASCRIPT_TYPESCRIPT"
       ],
-      "platform": [   "LINUX",
+      "platform": [
+        "LINUX",
         "WINDOWS"
       ],
       "lifecycle": [
@@ -12756,6 +12765,85 @@
         "RUBY",
         "RUST",
         "SCALA"
+      ]
+    },
+    {
+      "name": "Hermeto",
+      "publisher": "The Hermeto Project",
+      "description": "Hermeto is a CLI tool that pre-fetches your project's dependencies, which enables network-isolated builds, which enables the production of high-accuracy SBOMs",
+      "repository_url": "https://github.com/hermetoproject/hermeto",
+      "website_url": "https://hermetoproject.github.io/hermeto/",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE",
+        "OSI_APPROVED"
+      ],
+      "functions": [
+        "AUTHOR",
+        "PACKAGE_MANAGER_INTEGRATION"
+      ],
+      "transform": [],
+      "packaging": [
+        "COMMAND_LINE_UTILITY",
+        "CONTAINER_IMAGE"
+      ],
+      "library": [],
+      "platform": [
+        "LINUX",
+        "MAC"
+      ],
+      "lifecycle": [
+        "PRE-BUILD",
+        "BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "SLSA",
+        "PACKAGE_URL"
+      ],
+      "supportedLanguages": [
+        "RUBY",
+        "RUST",
+        "GO",
+        "JAVASCRIPT/TYPESCRIPT",
+        "PYTHON"
+      ]
+    },
+    {
+      "name": "ClickBOM",
+      "publisher": "ClickHouse",
+      "description": "Downloads and merges SBOMs from various sources. Converts to CycloneDX and SPDX formats. Uploads to cloud storage and ClickHouse for analytics.",
+      "repository_url": "https://github.com/ClickHouse/ClickBOM",
+      "website_url": "https://github.com/marketplace/actions/clickbom",
+      "capabilities": [
+        "SBOM"
+      ],
+      "availability": [
+        "OPEN_SOURCE"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "DISTRIBUTE",
+        "TRANSFORM"
+      ],
+      "packaging": [
+        "GITHUB_ACTION"
+      ],
+      "platform": [
+        "LINUX"
+      ],
+      "lifecycle": [
+        "BUILD",
+        "DISCOVERY",
+        "OPERATIONS",
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX"
       ]
     },
     {
