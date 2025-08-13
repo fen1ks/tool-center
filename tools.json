@@ -12862,7 +12862,7 @@
       ],
       "functions": [
         "ANALYSIS",
-        "AUTHOR",
+        "AUTHOR"
       ],
       "analysis": [
         "SECURITY_VULNERABILITIES",
