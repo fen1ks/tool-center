@@ -12845,6 +12845,68 @@
         "CYCLONEDX",
         "SPDX"
       ]
+    },
+    {
+      "name": "Aikido Security",
+      "publisher": "Aikido Security",
+      "description": "Code-to-cloud security in one platform—scan, prioritize, and fix issues across the full stack.",
+      "website_url": "https://aikido.dev",
+      "capabilities": [
+        "SBOM",
+        "VDR/VEX"
+      ],
+      "availability": [
+        "FREEMIUM",
+        "SUBSCRIPTION",
+        "COMMERCIAL_LICENSE"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "AUTHOR"
+      ],
+      "analysis": [
+        "SECURITY_VULNERABILITIES",
+        "POLICY_EVALUATION",
+        "LICENSE_REPORTING",
+        "OUTDATED_COMPONENTS"
+      ],
+      "transform": [],
+      "packaging": [
+        "APPLICATION"
+      ],
+      "library": [],
+      "platform": [
+        "LINUX",
+        "MAC",
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "DESIGN",
+        "PRE-BUILD",
+        "BUILD",
+        "POST-BUILD"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "SPDX",
+        "PACKAGE_URL"
+      ],
+      "cycloneDxVersion": [],
+      "supportedLanguages": [
+        "JAVASCRIPT/TYPESCRIPT",
+        "PHP",
+        "JAVA",
+        "SWIFT",
+        "GO",
+        "PYTHON",
+        ".NET",
+        "RUBY",
+        "RUST",
+        "KOTLIN",
+        "ERLANG_ELIXIR",
+        "C/C++",
+        "SCALA"
+      ]
     }
   ]
 }
