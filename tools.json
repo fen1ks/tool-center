@@ -1,7 +1,7 @@
 {
   "$schema": "https://cyclonedx.org/schema/tool-center-v2.schema.json",
   "specVersion": "2.0",
-  "last_updated": "2025-09-24T12:49:05Z",
+  "last_updated": "2025-09-24T12:54:55Z",
   "license": {
     "id": "CC-BY-SA-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -9632,6 +9632,63 @@
         "CYCLONEDX_V1.6"
       ],
       "_fromFile": "sbom_grep.json"
+    },
+    {
+      "name": "SBOM-HQ",
+      "publisher": "Eracent Inc.",
+      "description": "Analyzes SBOMs for vulnerabilities, licenses, and component lifecycle. Offers advanced built-in and customizable reports, alerting, and fine-grained access control. Scales from small teams to large enterprises.",
+      "website_url": "https://eracent.com/sbom-hq/",
+      "capabilities": [
+        "SBOM",
+        "CBOM",
+        "VDR/VEX"
+      ],
+      "availability": [
+        "SUBSCRIPTION"
+      ],
+      "functions": [
+        "ANALYSIS",
+        "AUTHOR",
+        "TRANSFORM"
+      ],
+      "analysis": [
+        "LICENSE_REPORTING",
+        "OUTDATED_COMPONENTS",
+        "POLICY_EVALUATION",
+        "SECURITY_VULNERABILITIES"
+      ],
+      "transform": [
+        "BOM_STANDARD",
+        "BOM_VERSION"
+      ],
+      "packaging": [
+        "APPLICATION"
+      ],
+      "library": [
+        "C#",
+        ".NET",
+        "JAVASCRIPT_TYPESCRIPT"
+      ],
+      "platform": [
+        "WINDOWS"
+      ],
+      "lifecycle": [
+        "POST-BUILD",
+        "OPERATIONS"
+      ],
+      "supportedStandards": [
+        "CYCLONEDX",
+        "PACKAGE_URL",
+        "SPDX"
+      ],
+      "cycloneDxVersion": [
+        "CYCLONEDX_V1.3",
+        "CYCLONEDX_V1.4",
+        "CYCLONEDX_V1.5",
+        "CYCLONEDX_V1.6"
+      ],
+      "supportedLanguages": [],
+      "_fromFile": "sbom_hq.json"
     },
     {
       "name": "SBOM Insights",
