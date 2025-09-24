@@ -86,12 +86,11 @@ jobs:
         run: git push
 
   publish:
+    name: deploy
     needs:
       - push-back
-    # need to trigger this workflow manually, for the following reason:
-    # The "publish" workflow is triggered whenever a `tools.json` is modified - which happens during
-    # the `push-back` step. and this commit is issued by a bot.
-    # GitHub workflows may triggered on events only if not issues by a bot - so the workflow would
-    # not trigger automatically.
-    uses: ./.github/workflows/publish_toolcenter.yml
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Deploy Hook
+        run: curl -X POST '${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}'
 
