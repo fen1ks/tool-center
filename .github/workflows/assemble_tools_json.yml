@@ -93,4 +93,5 @@ jobs:
     # the `push-back` step. and this commit is issued by a bot.
     # GitHub workflows may triggered on events only if not issues by a bot - so the workflow would
     # not trigger automatically.
-    uses: .github/workflows/publish_toolcenter.yml
+    uses: ./.github/workflows/publish_toolcenter.yml
+
