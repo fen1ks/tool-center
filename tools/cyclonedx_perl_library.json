@@ -4,11 +4,20 @@
   "tool": {
     "name": "CycloneDX Perl Library",
     "publisher": "Giuseppe Di Terlizzi",
-    "description": "Perl library for generating CycloneDX SBOMs.",
+    "description": "Perl library for generating CycloneDX BOMs.",
     "repository_url": "https://github.com/giterlizzi/perl-SBOM-CycloneDX",
-    "website_url": "https://github.com/giterlizzi/perl-SBOM-CycloneDX",
+    "website_url": "https://metacpan.org/pod/SBOM::CycloneDX",
     "capabilities": [
-      "SBOM"
+      "AI/ML-BOM",
+      "CBOM",
+      "CDXA",
+      "HBOM",
+      "MBOM",
+      "OBOM",
+      "RELEASE_NOTES",
+      "SAASBOM",
+      "SBOM",
+      "VDR/VEX"
     ],
     "availability": [
       "OPEN_SOURCE",
@@ -37,7 +46,11 @@
       "PACKAGE_URL"
     ],
     "cycloneDxVersion": [
-      "CYCLONEDX_V1.3"
+      "CYCLONEDX_V1.6",
+      "CYCLONEDX_V1.5",
+      "CYCLONEDX_V1.4",
+      "CYCLONEDX_V1.3",
+      "CYCLONEDX_V1.2"
     ],
     "supportedLanguages": [
       "PERL"
